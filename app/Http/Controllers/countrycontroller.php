@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class countrycontroller extends Controller {
+    public function country() {
+        return view('pages.country');
+    }
+
+    public function countrydetails() {
+        return view('pages.country-details');
+    }
+}
