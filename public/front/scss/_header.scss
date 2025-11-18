@@ -1,6 +1,6 @@
 
 .header-top-section {
-	background-color:#e31f2375;
+	background-color:#e31e25;
 	padding: 10px 0;
 	position: relative;
 	z-index: 9;
@@ -56,14 +56,14 @@
 
 		li {
 			font-size: 15px;
-			color: $text-color-2;
+			color: #fff;
 
 			a {
-				color: $text-color-2;
+				color: #fff;
 			}
 
 			i {
-				color: $theme-color;
+				color: #fff;
 				margin-right: 10px;
 			}
 		}
@@ -77,10 +77,10 @@
 			gap: 15px;
 
 			a {
-				color: $text-color-2;
+				color: #fff;
 
 				&:hover {
-					color: $theme-color;
+					color: #000;
 				}
 			}
 		}
@@ -716,7 +716,7 @@
 
 				.contact-info {
 					@include flex;
-					gap: 20px;
+					gap: 10px;
 
 					@include breakpoint (max-xxl){
 						display: none !important;
@@ -1533,3 +1533,16 @@
 	}
 }
 
+.privacy-policy-content h3, .privacy-policy-content h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.privacy-policy-content p {
+  margin-bottom: 15px;
+  color: var(--text);
+  line-height: 1.8;
+}
+.privacy-policy-content ul {
+  margin-bottom: 20px;
+}
