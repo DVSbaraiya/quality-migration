@@ -1083,7 +1083,7 @@ input.main-search-input::placeholder {
   }
 }
 .header-top-section {
-  background-color: #e31f2375;
+  background-color: #e31e25;
   padding: 10px 0;
   position: relative;
   z-index: 9;
@@ -1150,13 +1150,13 @@ input.main-search-input::placeholder {
 }
 .header-top-wrapper .contact-list li {
   font-size: 15px;
-  color: var(--text2);
+  color: #fff;
 }
 .header-top-wrapper .contact-list li a {
-  color: var(--text2);
+  color: #fff;
 }
 .header-top-wrapper .contact-list li i {
-  color: var(--theme);
+  color: #fff;
   margin-right: 10px;
 }
 .header-top-wrapper .top-right {
@@ -1168,10 +1168,10 @@ input.main-search-input::placeholder {
   gap: 15px;
 }
 .header-top-wrapper .top-right .social-icon a {
-  color: var(--text2);
+  color: #fff;
 }
 .header-top-wrapper .top-right .social-icon a:hover {
-  color: var(--theme);
+  color: #000;
 }
 .header-top-wrapper .top-right .header-menu {
   display: flex;
@@ -1729,7 +1729,7 @@ input.main-search-input::placeholder {
 .header-1 .mega-menu-wrapper .header-main .header-right .contact-info {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 @media (max-width: 1399px) {
   .header-1 .mega-menu-wrapper .header-main .header-right .contact-info {
@@ -7640,7 +7640,7 @@ input.main-search-input::placeholder {
   content: "";
   width: 32px;
   height: 24px;
-  background-image: url(../../assets/img/testimonial/quote.png);
+  background-image: url(../../front/img/testimonial/quote.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10759,7 +10759,7 @@ p.sticky-label {
   }
 }
 .footer-widgets-wrapper .single-footer-widget .footer-content .social-icon {
-  margin-top: 40px;
+  margin-top: 10px;
   gap: 15px;
   position: relative;
   z-index: 9;
@@ -11120,3 +11120,18 @@ p.sticky-label {
     padding: 18px 25px;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+.privacy-policy-content h3, .privacy-policy-content h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.privacy-policy-content p {
+  margin-bottom: 15px;
+  color: var(--text);
+  line-height: 1.8;
+}
+.privacy-policy-content ul {
+  margin-bottom: 20px;
+}

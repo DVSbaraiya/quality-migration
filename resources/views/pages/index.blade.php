@@ -113,7 +113,7 @@ Home
         <div class="shape-image-2 fadeInRight animated" data-animation="fadeInRight" data-delay="2.3s">
             <img src="{{ asset('front/img/hero/right-shape.png') }}" alt="shape-img">
         </div>
-        <div class="hero-image bg-cover" style="background-image: url('front/img/all-image/bgb4.jpg');"></div>
+        {{-- <div class="hero-image bg-cover" style="background-image: url('front/img/all-image/bgb4.jpg');"></div> --}}
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-8">
@@ -461,7 +461,7 @@ Home
 
 
 <!--<<Choose us section Start >>-->
-<section class="choose-us-section section-padding pt-0">
+<section class="choose-us-section section-padding pt-5">
     <div class="container">
         <div class="choose-us-wrapper">
             <div class="row g-4">

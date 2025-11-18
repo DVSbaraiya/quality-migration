@@ -27,6 +27,10 @@ Route::get('/tofel-coaching', [coachingcontroller::class, 'tofelcoaching'])->nam
 Route::get('/naati-coaching', [coachingcontroller::class, 'naaticoaching'])->name('naaticoaching');
 Route::get('/coaching-details', [coachingcontroller::class, 'coachingdetails'])->name('coachingdetails');
 
+Route::get('privacy', function () {
+    return view('pages.privacy');
+})->name('privacy');
+
 Route::get('pathway', function () {
     return view('pages.pathway');
 })->name('pathway');

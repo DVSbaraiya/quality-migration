@@ -15,12 +15,11 @@
                                 amazing things.
                             </p>    
                             <a href="mailto:admin@qualitymigration.com" class="link">admin@qualitymigration.com</a>
-                            {{-- <div class="social-icon d-flex align-items-center">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                            </div> --}}
+                            <div class="social-icon d-flex align-items-center">
+                                <a href="https://www.facebook.com/share/1a6hNZVHxC/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/qualitymigration_australia/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@quality.migration?_r=1&_t=ZS-91V2tAd44bh"><i class="fab fa-tiktok"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -193,12 +192,12 @@
                             Support
                         </a>
                     </li>
-                    {{-- <li>
-                       <a href="{{ route('contact') }}">
+                    <li>
+                       <a href="{{ route('privacy') }}">
                             Privacy
                         </a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="{{ route('faq') }}">
                             Faqs
                         </a>

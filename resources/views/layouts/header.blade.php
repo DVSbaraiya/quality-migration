@@ -1,23 +1,26 @@
 <header class="header-section-1">
     <div class="header-top-section fix">
-        <div class="container">
+        <div class="container-fluid px-5">
             <div class="header-top-wrapper">
-                <ul class="contact-list">
+                <ul class="contact-list mx-3">
                     <li>
                         <i class="far fa-envelope"></i>
                         <a href="mailto:admin@qualitymigration.com" class="link">admin@qualitymigration.com</a>
                     </li>
                     <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+61 426 876 249" class="link">+61  426 876 249</a>
+                    </li>
+                    {{-- <li>
                         <i class="fas fa-map-marker-alt"></i>
                         55 Main Street, 2nd block, Malborne ,Australia
-                    </li>
+                    </li> --}}
                 </ul>
                 <div class="top-right">
                     <div class="social-icon d-flex align-items-center">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="https://www.facebook.com/share/1a6hNZVHxC/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/qualitymigration_australia/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@quality.migration?_r=1&_t=ZS-91V2tAd44bh"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
             </div>
@@ -31,7 +34,7 @@
                     <div class="header-left">
                         <div class="logo">
                             <a href="{{ url('/') }}" class="header-logo">
-                                <img src="{{ asset('front/img/logo/logo.png') }}" width="200px" alt="logo-img">
+                                <img src="{{ asset('front/img/logo/logo.png') }}" width="250px" alt="logo-img">
                             </a>
                         </div>
                         <div class="mean__menu-wrapper">
@@ -169,7 +172,7 @@
                                 <img src="{{ asset('front/img/call.png') }}" alt="img">
                             </div>
                             <div class="content">
-                                <p>Phone:</p>
+                                {{-- <p>Phone:</p> --}}
                                 <h6>
                                     <a href="tel:+61 426 876 249">+61  426 876 249</a>
                                 </h6>
@@ -273,5 +276,7 @@
             </div>
         </div>
     </div>
-
+    
 </div>
+<div class="cursor-inner d-none"></div>
+<div class="cursor-outer d-none"></div>

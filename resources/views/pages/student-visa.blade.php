@@ -44,7 +44,7 @@
                                 <h4 class="text-center text-danger my-5">Key Features of the Student Visa</h4>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5 class="text-success">Key Features of the Student Visa:</h5>
+                                        <h5 class="my-2">Key Features of the Student Visa:</h5>
                                         <ul>
                                             <li>• Eligibility: Available for students at all levels, from primary school to
                                                 Ph.D.
@@ -55,13 +55,13 @@
                                                 of
                                                 hours while holding this visa.</li>
                                         </ul>
-                                        <h5 class="text-success">Application Options:</h5>
+                                        <h5 class="my-2">Application Options:</h5>
                                         <ul>
                                             <li>• Can be applied for onshore (within Australia) or offshore (outside
                                                 Australia).
                                             </li>
                                         </ul>
-                                        <h5 class="text-success">Benefits of the Student Visa:</h5>
+                                        <h5 class="my-2">Benefits of the Student Visa:</h5>
                                         <ul>
                                             <li>• Opportunity to participate in an eligible full-time course in Australia.
                                             </li>
@@ -81,7 +81,7 @@
                                 <h4 class="text-center text-danger my-5">Student Guardian Visa (Subclass 590)</h4>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5 class="text-success">Key Features of the Guardian Visa:</h5>
+                                        <h5 class="my-2">Key Features of the Guardian Visa:</h5>
                                         <ul>
                                             <li>• Eligibility: For foreign nationals who wish to stay in Australia as a
                                                 guardian
@@ -93,7 +93,7 @@
                                                 times
                                                 during the visa’s validity.</li>
                                         </ul>
-                                        <h5 class="text-success">Benefits of the Guardian Visa:</h5>
+                                        <h5 class="my-2">Benefits of the Guardian Visa:</h5>
                                         <ul>
                                             <li>• Ensure the student has proper care and support during their time in
                                                 Australia.
@@ -114,7 +114,7 @@
                                         <p>At Quality Migration, we provide expert advice and support to help you navigate
                                             the
                                             process of applying for a Student Visa or a Student Guardian Visa.</p>
-                                        <h5 class="text-success">Our Services:</h5>
+                                        <h5 class="my-2">Our Services:</h5>
                                         <ul>
                                             <li>• Assistance with visa applications.</li>
                                             <li>• Guidance on selecting the right course and institution.</li>
@@ -128,14 +128,14 @@
                                 <h4 class="text-center text-danger my-5">Student Visa Extension</h4>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5 class="text-success">Is Your Visa Expiring Soon?</h5>
+                                        <h5 class="my-2">Is Your Visa Expiring Soon?</h5>
                                         <p>If your current visa is nearing its expiry date and you’re considering applying
                                             for a
                                             student visa, it is critical to take action before your current visa expires.
                                             Overstaying your visa is a breach of conditions and can have serious
                                             consequences.
                                         </p>
-                                        <h5 class="text-success">When Should You Apply for a New Visa or Extension?</h5>
+                                        <h5 class="my-2">When Should You Apply for a New Visa or Extension?</h5>
                                         <ul>
                                             <li>• Ideally, apply for a Student Visa or Student Visa extension 3–6 months
                                                 before
@@ -144,7 +144,7 @@
                                                 delay—contact
                                                 us today for assistance!</li>
                                         </ul>
-                                        <h5 class="text-success">Common Reasons for a Visa Extension:</h5>
+                                        <h5 class="my-2">Common Reasons for a Visa Extension:</h5>
                                         <ul>
                                             <li>• Commencing a New Course.</li>
                                             <li>• Extended Study Period.</li>
@@ -169,9 +169,9 @@
                                         <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s"
                                             style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                             <div class="service-card-items">
-                                                <h5 class="text-success">Bridging Visa A (BVA):</h5>
+                                                <h5 class="my-2">Bridging Visa A (BVA):</h5>
                                                 <p>Allows lawful stay in Australia while your visa is being processed.</p>
-                                                <h5 class="text-success">Bridging Visa B (BVB):</h5>
+                                                <h5 class="my-2">Bridging Visa B (BVB):</h5>
                                                 <p>Provides permission to travel outside Australia while waiting for your
                                                     visa
                                                     outcome.
@@ -182,7 +182,7 @@
                                             style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                             <div class="service-card-items">
 
-                                                <h5 class="text-success">Offshore Applications:</h5>
+                                                <h5 class="my-2">Offshore Applications:</h5>
                                                 <p>You must wait for your student visa to be granted before returning to
                                                     Australia.
                                                     Border restrictions may impact the process, so consult with our experts
@@ -198,7 +198,7 @@
                                 <h4 class="text-center text-danger my-5">Key Considerations for Visa Extensions</h4>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h5 class="text-success">Documents Required:</h5>
+                                        <h5 class="my-2">Documents Required:</h5>
                                         <ul>
                                             <li>• Health Check: Ensuring your medical requirements are met.</li>
                                             <li>• Financial Proof: Demonstrating your ability to support your studies and
@@ -213,9 +213,9 @@
                                 <h4 class="text-center text-danger my-5"></h4>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h5 class="text-success">Affordable Service & Expertise:</h5>
+                                        <h5 class="my-2">Affordable Service & Expertise:</h5>
                                         <p></p>
-                                        <h5 class="text-success"></h5>
+                                        <h5 class="my-2"></h5>
                                         <ul>
                                             <li>• Assistance with visa extensions, course changes, PR applications, TR 485,
                                                 partner visas, regional migration, and more.</li>
