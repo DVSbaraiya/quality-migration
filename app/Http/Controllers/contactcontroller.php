@@ -32,7 +32,7 @@ class contactcontroller extends Controller
         
         if ($emailData) {
             Mail::send('mail.contact', ['contact' => $emailData], function ($message) {
-                $message->to('dhameliyak1@gmail.com', 'Contact Form')->subject('Form Submission');
+                $message->to('admin@qualitymigration.com', 'Contact Form')->subject('Form Submission');
             });
         }
 

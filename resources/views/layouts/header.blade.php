@@ -9,7 +9,7 @@
                     </li>
                     <li>
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel:+61 426 876 249" class="link">+61  426 876 249</a>
+                        <a href="tel:+61385185858" class="link">+61 385185858</a>
                     </li>
                     {{-- <li>
                         <i class="fas fa-map-marker-alt"></i>
@@ -174,7 +174,7 @@
                             <div class="content">
                                 {{-- <p>Phone:</p> --}}
                                 <h6>
-                                    <a href="tel:+61 426 876 249">+61  426 876 249</a>
+                                    <a href="tel:+61385185858">+61 385185858</a>
                                 </h6>
                             </div>
                         </div>
@@ -232,7 +232,7 @@
                                 <i class="fal fa-map-marker-alt"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                <a target="_blank" href="#">1/18 Haughton Rd Oakleigh Vic 3166</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center" style="text-transform: none;">
@@ -257,7 +257,7 @@
                                 <i class="far fa-phone"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a href="tel:+61 426 876 249">+61 426 876 249</a>
+                                <a href="tel:+61385185858">+61 385185858</a>
                             </div>
                         </li>
                     </ul>

@@ -70,8 +70,6 @@
                 <p><strong>Email:</strong> {{ $contact['email'] }}</p>
                 <p><strong>Message:</strong><br> {{ $contact['message'] }}</p>
             </div>
-
-
         </div>
     </div>
 
