@@ -25,11 +25,31 @@
             </div>
         </div>
     </div>
-    @if (Session::has('success'))
-        <div class="alert alert-success">
-            {{ Session::get('success') }}
+@if (Session::has('success'))
+<section class="contact-success-section">
+    <div class="success-container">
+        <h1 class="success-heading">
+            Thank you for contacting us, we are here to help.<br>
+            We will be in touch shortly.
+        </h1>
+
+        <div class="success-box">
+            <div class="success-icon">
+                <i class="far fa-thumbs-up"></i>
+            </div>
+
+            <h2 class="success-title">We will be in touch shortly</h2>
+
+            <p class="success-message">
+                Thanks for getting in touch. We appreciate your enquiry and a member of our team
+                will be in touch with you shortly.
+            </p>
         </div>
-    @endif
+    </div>
+</section>
+@endif
+
+
     @if (Session::has('error'))
         <div class="alert alert-danger">
             {{ Session::get('error') }}
@@ -73,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="col-lg-6 mt-5 mt-lg-0" id="contact-us-form">
                         <div class="contact-form-items">
                             <div class="contact-title">
                                 <h3 class="wow fadeInUp" data-wow-delay=".3s">Fill Up The Form</h3>

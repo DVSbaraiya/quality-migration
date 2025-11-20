@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('title')
-    Home
+    About Us - Quality Migration
 @endsection
 
 
@@ -38,9 +38,9 @@
                                 <img src="{{ asset('front/img/about/border-shape.png') }}" alt="shape-img">
                             </div>
                             <div class="about-image bg-cover wow fadeInLeft" data-wow-delay=".3s"
-                                style="background-image: url('front/img/about/about.jpg');">
+                                style="background-image: url('front/img/about/about-us-2.png');">
                                 <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                    <img src="{{ asset('front/img/all-image/about/about-thumb-2-2.jpg') }}" alt="about-img">
+                                    <img src="{{ asset('front/img/about/about-us.png') }}" alt="about-img">
                                 </div>
                             </div>
                         </div>
@@ -81,18 +81,18 @@
                                 </div> -->
                             </div>
                             <ul class="about-list wow fadeInUp" data-wow-delay=".7s">
-                                <li>
-                                    <i class="far fa-check me-2"></i>
-                                    Immigration & Visa Consulting
-                                </li>
-                                <li>
-                                    <i class="far fa-check me-2"></i>
-                                    Direct Online Interview
-                                </li>
-                                <li>
-                                    <i class="far fa-check me-2"></i>
-                                    99% Visa Approvals
-                                </li>
+                               <li>
+                                <i class="far fa-check me-2"></i>
+                               Educational & Migration consultant
+                            </li>
+                            <li>
+                                <i class="far fa-check me-2"></i>
+                                Skill Assessment Experts
+                            </li>
+                            <li>
+                                <i class="far fa-check me-2"></i>
+                               PR Pathway Experts
+                            </li>
                             </ul>
                             <div class="about-author">
                                 <div class="about-button wow fadeInUp" data-wow-delay=".8s">
@@ -159,21 +159,18 @@
                             <div class="row g-4">
                                 <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="choose-image-1">
-                                        <img src="{{ asset('front/img/all-image/choose-us/about-thumb-1.jpg') }}"
+                                        <img src="{{ asset('front/img/all-image/choose-us/about-thumb-1.png') }}"
                                             alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="choose-image-2 bg-cover wow fadeInUp" data-wow-delay=".3s"
-                                        style="background-image: url('front/img/choose-us/02.jpg');"></div>
+                                        style="background-image: url('front/img/all-image/choose-us/02.png');"></div>
                                     <div class="choose-image-3 wow fadeInUp" data-wow-delay=".5s">
                                         <img src="{{ asset('front/img/all-image/choose-us/about-thumb-2.png') }}"
                                             alt="img">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="choose-box">
-                                <h3>10m+ Trusted <br> Customer</h3>
                             </div>
                         </div>
                     </div>
@@ -199,7 +196,8 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="service-card-items">
-                        <h3><a href="{{ route('servicedetails') }}">Education Services</a></h3>
+                        <h3><a href="{{ route('contact') }}#contact-us-form">Education Services</a></h3>
+
                         <ul>
                             <li>
                                 <p>•<b>Course Applications:</b> Assistance with applying to Australian schools and securing
@@ -218,7 +216,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="service-card-items">
-                        <h3><a href="{{ route('servicedetails') }}">Migration Services</a></h3>
+                        <h3><a href="{{ route('contact') }}#contact-us-forma></h3>
                         <ul>
                             <li>
                                 <p>•<b>Student Visas:</b>500 Student Visa and Student Visa Extensions.</p>
@@ -240,7 +238,7 @@
                                 <p><b>Business Visas: </b>Temporary and Investment Visas.</p>
                             </li>
                             <li>
-                                <p><b>Administrative Appeals Tribunal (AAT):</b>Guidance for appealing visa refusals or
+                                <p><b>Administrative Appeals Tribunal (ART):</b>Guidance for appealing visa refusals or
                                     cancellations.</p>
                             </li>
                             <li>
@@ -251,7 +249,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="service-card-items">
-                        <h3><a href="{{ route('servicedetails') }}">Personalized Consultation Services</a></h3>
+                        <h3><a href="{{ route('contact') }}#contact-us-form</a></h3>
                         <ul>
                             <li>
                                 <p>•<b>PR Pathway Consultation:</b>Explore your Permanent Residency (PR) options with a
@@ -294,9 +292,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('servicedetails') }}">
-                                Working Visa
-                            </a>
+                            <a href="{{ route('contact') }}#contact-us-forma>
                         </h6>
                     </div>
                 </div>
@@ -306,9 +302,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('servicedetails') }}">
-                                Tourist Visa
-                            </a>
+                            <a href="{{ route('contact') }}#contact-us-forma>
                         </h6>
                     </div>
                 </div>
@@ -318,9 +312,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('servicedetails') }}">
-                                Medical Visa
-                            </a>
+                            <a href="{{ route('contact') }}#contact-us-forma>
                         </h6>
                     </div>
                 </div>
@@ -330,9 +322,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('servicedetails') }}">
-                                Student Visa
-                            </a>
+                            <a href="{{ route('contact') }}#contact-us-forma>
                         </h6>
                     </div>
                 </div>
@@ -342,9 +332,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('servicedetails') }}">
-                                Family Visa
-                            </a>
+                            <a href="{{ route('contact') }}#contact-us-forma>
                         </h6>
                     </div>
                 </div>

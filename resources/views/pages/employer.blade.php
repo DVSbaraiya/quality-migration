@@ -28,11 +28,11 @@
 
     <!--<< Coaching Section Start >>-->
     <section class="coaching-details-section fix section-padding">
-        <div class="container">
+        <div class="container px-4 px-md-0">
             <div class="coaching-details-wrapper">
                 <div class="row g-5">
                     <div class="details-content">
-                        <h3 class="title-anim text-danger">Expanding Pathways to Permanent Residency for Skilled Workers in
+                        <h3 class="">Expanding Pathways to Permane  nt Residency for Skilled Workers in
                             Australia
                         </h3>
                         <p>Australia is committed to improving its migration system to provide clear and accessible pathways
@@ -46,14 +46,12 @@
                         <div class="container py-5">
                             <div class="text-center mb-5">
                                 <h3 class="section-title">Employer-Sponsored Visa Updates</h3>
-                                <p class="mb-0">Latest reforms effective from <strong>November 25, 2023</strong>,
-                                    supporting skilled migration and permanent residency.</p>
                             </div>
 
                             <div class="row g-4">
                                 <!-- Nomination Changes -->
                                 <div class="col-md-6">
-                                    <div class="card h-100 shadow-sm border-start border-primary border-4">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
                                             <h5 class="card-title">Nomination Changes (TRT Stream – ENS/RSMS)</h5>
                                             <ul class="list-unstyled">
@@ -72,7 +70,7 @@
 
                                 <!-- Occupation & Age Changes -->
                                 <div class="col-md-6">
-                                    <div class="card h-100 shadow-sm border-start border-success border-4">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
                                             <h5 class="card-title">Occupation & Age Requirement Changes</h5>
                                             <ul class="list-unstyled">
@@ -93,7 +91,7 @@
                             <!-- TSMIT + PR Pathway -->
                             <div class="row mt-5 g-4">
                                 <div class="col-md-6">
-                                    <div class="card h-100 shadow-sm border-start border-warning border-4">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
                                             <h5 class="card-title">Higher TSMIT & PR Pathways</h5>
                                             <ul class="list-unstyled">
@@ -112,7 +110,7 @@
 
                                 <!-- Visa Options -->
                                 <div class="col-md-6">
-                                    <div class="card h-100 shadow-sm border-start border-info border-4">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
                                             <h5 class="card-title">Employer-Sponsored Visa Options</h5>
                                             <ul class="list-unstyled">
@@ -131,7 +129,7 @@
                             <!-- Benefits & Expert Advice -->
                             <div class="row mt-5 g-4">
                                 <div class="col-md-6">
-                                    <div class="card h-100 shadow-sm border-start border-secondary border-4">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
                                             <h5 class="card-title">Benefits for Employers & Employees</h5>
                                             <ul class="list-unstyled">
@@ -145,7 +143,7 @@
                                 </div>
 
                                 <div class="col-md-6">
-                                    <div class="card h-100 shadow-sm border-start border-danger border-4">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
                                             <h5 class="card-title">Expert Guidance Matters</h5>
                                             <p>Employer-sponsored visas demand accuracy. Incorrect info or missing
@@ -156,18 +154,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title text-success">Why Choose Quality Migration?</h5>
-                                <ul>
-                                    <li>• Registered Migration Agents (MARN Certified)</li>
-                                    <li>• Expertise in employer-sponsored visas.</li>
-                                    <li>• Personalized guidance to avoid costly errors.</li>
-                                    <li>• Assistance with both employer and employee obligations.</li>
-                                </ul>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>

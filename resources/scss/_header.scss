@@ -399,7 +399,6 @@
 		height: 100%;
 		width: 110px;
 		content: "";
-		background-color: $theme-color;
 		z-index: -1;
 
 		@include breakpoint (max-xl4){

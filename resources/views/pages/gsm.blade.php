@@ -89,65 +89,14 @@ General Skilled Migration
                                         regional areas.</p>
                                     <p>• Pathway to <b>permanent residency</b> (Subclass 191 Visa) after:
                                     <ul class="ms-2">
-                                        <li>o Living in a designated regional area for at least 3 years.</li>
-                                        <li>o Earning the minimum taxable income as required by the Department of Home
+                                        <li>• Living in a designated regional area for at least 3 years.</li>
+                                        <li>• Earning the minimum taxable income as required by the Department of Home
                                             Affairs.</li>
                                     </ul>
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="container py-5">
-                            <div class="row mb-5">
-                                <!-- Left Column -->
-                                <div class="col-md-6">
-                                    <h3 class="title-anime text-danger">Key Benefits of GSM Visas</h3>
-                                    <p class="mb-4">Unlock your path to Permanent Residency through General Skilled Migration.</p>
-                                    <ul class="list-unstyled text-start">
-                                        <li><strong>Pathway to PR:</strong> Many GSM visas provide a clear route to Permanent Residency.</li>
-                                        <li><strong>Family Inclusion:</strong> Include immediate family members in your visa application.</li>
-                                        <li><strong>Flexibility:</strong> Work and live across multiple Australian regions depending on visa conditions.</li>
-                                    </ul>
-                                </div>
-
-                                <!-- Right Column -->
-                                <div class="col-md-6">
-                                    <h3 class="title-anime text-danger">Recent Invitation Trends <span class="text-muted">(2025)</span></h3>
-                                    <ul class="list-unstyled">
-                                        <li><i class="bi bi-graph-up-arrow icon-bullet"></i> <strong>Subclass 190:</strong> Invitations issued from 70 points in several states.</li>
-                                        <li><i class="bi bi-geo-alt icon-bullet"></i> <strong>Subclass 491:</strong> Growing regional focus through national skilled migration initiatives.</li>
-                                    </ul>
-                                    <!-- <img src="{{ asset('front/img/all-image/early/How-to-Learn-English-.jpg') }}"
-                                        alt="GSM Visas Australia"
-                                        class="img-fluid rounded shadow mt-3" /> -->
-                                </div>
-                            </div>
-
-                            <div class="">
-                                <h3 class="title-anime text-danger">Take the First Step</h3>
-                                <p class="mb-3">Explore your eligibility for these skilled migration visas with
-                                    Quality Migration. Our team can guide you through:</p>
-                                <ul class="list-unstyled text-start">
-                                    <li><i class="bi bi-calculator icon-bullet"></i>• Points calculation and skills
-                                        assessment.</li>
-                                    <li><i class="bi bi-file-earmark-check icon-bullet"></i>• Visa application and
-                                        nomination processes.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title text-success">Why Choose Quality Migration?</h5>
-                                <ul>
-                                    <li>• 4+ years of experience with Registered Migration Agents (MARN).</li>
-                                    <li>• Comprehensive support in English and other languages (Mandarin, Bangla,
-                                        Vietnamese, and more).</li>
-                                    <li>• 4.9/5 customer satisfaction rating.</li>
-                                    <li>• Tailored advice for your unique migration goals.</li>
-                                </ul>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>

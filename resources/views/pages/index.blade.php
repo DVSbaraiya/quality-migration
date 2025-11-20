@@ -30,8 +30,7 @@ Home
                             Immigration & <br> Visa Consulting <br> Here...
                         </h1>
                         <p data-animation="slideInRight" data-duration="2s" data-delay=".7s">
-                            Transmds is the world’s driving worldwide coordinations supplier we uphold <br>
-                            industry and exchange the worldwide trade of merchandi
+                            With a commitment to precision and trust, our quality migration approach streamlines your immigration journey, making every stage clear, efficient, and stress-free
                         </p>
                         <div class="hero-button">
                             <a href="{{ url('/') }}" class="theme-btn theme-color-2"
@@ -124,8 +123,7 @@ Home
                             Immigration & <br> Visa Consulting <br> Here...
                         </h1>
                         <p data-animation="slideInRight" data-duration="2s" data-delay=".7s">
-                            Transmds is the world’s driving worldwide coordinations supplier we uphold <br>
-                            industry and exchange the worldwide trade of merchandi
+                            With a commitment to precision and trust, our quality migration approach streamlines your immigration journey, making every stage clear, efficient, and stress-free
                         </p>
                         <div class="hero-button">
                             <a href="{{ url('/') }}" class="theme-btn theme-color-2"
@@ -152,9 +150,9 @@ Home
                             <img src="{{ asset('front/img/about/border-shape.png') }}" alt="shape-img">
                         </div>
                         <div class="about-image bg-cover wow fadeInLeft" data-wow-delay=".3s"
-                            style="background-image: url('front/img/about/about.jpg');">
+                            style="background-image: url('front/img/about/about-us-2.png');">
                             <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                <img src="{{ asset('front/img/about/about-2.jpg') }}" alt="about-img">
+                                <img src="{{ asset('front/img/about/about-us.png') }}" alt="about-img">
                             </div>
                         </div>
                     </div>
@@ -196,15 +194,15 @@ Home
                         <ul class="about-list wow fadeInUp" data-wow-delay=".7s">
                             <li>
                                 <i class="far fa-check me-2"></i>
-                                Immigration & Visa Consulting
+                               Educational & Migration consultant
                             </li>
                             <li>
                                 <i class="far fa-check me-2"></i>
-                                Direct Online Interview
+                                Skill Assessment Experts
                             </li>
                             <li>
                                 <i class="far fa-check me-2"></i>
-                                99% Visa Approvals
+                               PR Pathway Experts
                             </li>
                         </ul>
                         <div class="about-author">
@@ -246,7 +244,7 @@ Home
         <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                 <div class="service-card-items">
-                    <h3><a href="{{ route('servicedetails') }}">Business Visa</a></h3>
+                    <h3><a href="{{ route('contact') }}#contact-us-form">Business Visa</a></h3>
                     <p>
                         Australia offers a range of visa opportunities for individuals looking to establish, manage, or
                         invest in businesses.
@@ -254,15 +252,15 @@ Home
                     <div class="service-thumb">
                         <img src="{{ asset('front/img/service/01.jpg') }}" alt="img">
                     </div>
-                    <a href="{{ route('servicedetails') }}" class="link-btn">
-                        <span>read more</span>
+                    <a href="{{ route('contact') }}#contact-us-form" class="link-btn">
+                        <span>Book Now</span>
                         <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
                 <div class="service-card-items">
-                    <h3><a href="{{ route('servicedetails') }}">Student Visa</a></h3>
+                    <h3><a href="{{ route('contact') }}#contact-us-form">Student Visa</a></h3>
                     <p>
                         The Student Visa (Subclass 500) is designed for international students who wish to study at a
                         registered education institution in Australia
@@ -270,15 +268,15 @@ Home
                     <div class="service-thumb">
                         <img src="{{ asset('front/img/service/02.jpg') }}" alt="img">
                     </div>
-                    <a href="{{ route('servicedetails') }}" class="link-btn">
-                        <span>read more</span>
+                    <a href="{{ route('contact') }}#contact-us-form" class="link-btn">
+                        <span>Book Now</span>
                         <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
                 <div class="service-card-items active">
-                    <h3><a href="{{ route('servicedetails') }}">Family & Partner Visa </a></h3>
+                    <h3><a href="{{ route('contact') }}#contact-us-form">Family & Partner Visa </a></h3>
                     <p>
                         Australia has implemented significant changes to the Migration Regulations 1994 through the
                         Migration Amendment
@@ -286,23 +284,23 @@ Home
                     <div class="service-thumb">
                         <img src="{{ asset('front/img/service/03.jpg') }}" alt="img">
                     </div>
-                    <a href="{{ route('servicedetails') }}" class="link-btn">
-                        <span>read more</span>
+                    <a href="{{ route('contact') }}#contact-us-form" class="link-btn">
+                        <span>Book Now</span>
                         <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
                 <div class="service-card-items">
-                    <h3><a href="{{ route('servicedetails') }}">Sponsored Visa</a></h3>
+                    <h3><a href="{{ route('contact') }}#contact-us-form">Sponsored Visa</a></h3>
                     <p>
                         Australia is committed to improving its migration system to provide clear and accessible pathways to Permanent Residency (PR)
                     </p>
                     <div class="service-thumb">
                         <img src="{{ asset('front/img/service/04.jpg') }}" alt="img">
                     </div>
-                    <a href="{{ route('servicedetails') }}" class="link-btn">
-                        <span>read more</span>
+                    <a href="{{ route('contact') }}#contact-us-form" class="link-btn">
+                        <span>Book Now</span>
                         <i class="fas fa-chevron-right"></i>
                     </a>
                 </div>
@@ -423,7 +421,7 @@ Home
                         <div class="content">
                             <h3>Visa Process</h3>
                             <p>
-                                Simplify your journey abroad with expert guidance through every step of the visa application process.
+                                Expert guidance through every step of your application, from course selection to final visa lodgement.
                             </p>
                         </div>
                     </div>
@@ -434,9 +432,10 @@ Home
                             <i class="flaticon-visa-2"></i>
                         </div>
                         <div class="content">
-                            <h3>99% Visa Approvals</h3>
+                            <h3>Use Trusted by Students & Families</h3>
                             <p>
-                                Experience peace of mind with our trusted team boasting a 99% visa approval success rate.
+                                Trusted by Students & Families
+We deliver reliable, transparent, and high-quality migration support, leading to excellent outcomes.
                             </p>
                         </div>
                     </div>
@@ -447,9 +446,9 @@ Home
                             <i class="flaticon-immigration-law"></i>
                         </div>
                         <div class="content">
-                            <h3>Immigration</h3>
+                            <h3>Immigration Services</h3>
                             <p>
-                                Navigate immigration confidently with our support—legal expertise, timely updates, and end-to-end assistance provided.
+                               Confidently navigate Australian immigration with expert legal guidance, timely updates, and end-to-end support.
                             </p>
                         </div>
                     </div>
@@ -506,22 +505,18 @@ Home
                         <div class="row g-4">
                             <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                                 <div class="choose-image-1">
-                                    <img src="{{ asset('front/img/all-image/choose-us/about-thumb-1.jpg') }}"
+                                    <img src="{{ asset('front/img/all-image/choose-us/about-thumb-1.png') }}"
                                         alt="img">
                                 </div>
                             </div>
                             <div class="col-lg-5">
                                 <div class="choose-image-2 bg-cover wow fadeInUp" data-wow-delay=".3s"
-                                    style="background-image: url('front/img/choose-us/02.jpg');"></div>
+                                    style="background-image: url('front/img/all-image/choose-us/02.png');"></div>
                                 <div class="choose-image-3 wow fadeInUp" data-wow-delay=".5s">
                                     <img src="{{ asset('front/img/all-image/choose-us/about-thumb-2.png') }}"
                                         alt="img">
                                 </div>
                             </div>
-                        </div>
-                        <div class="choose-box">
-                            <h3>10m+ Trusted <br> Customer</h3>
-                            <!-- <img src="{{ asset('front/img/all-image/choose-us/client.jpg') }}" alt="author-img"> -->
                         </div>
                     </div>
                 </div>
@@ -541,7 +536,7 @@ Home
                             <i class="flaticon-around"></i>
                         </div>
                         <div class="content">
-                            <h2><span class="count">3</span>+</h2>
+                            <h2><span class="count">5</span>+</h2>
                             <p>
                                 Countries <br>
                                 Represented
@@ -555,10 +550,10 @@ Home
                             <i class="flaticon-visa-2"></i>
                         </div>
                         <div class="content">
-                            <h2><span class="count">853</span>+</h2>
+                            <h2><span class="count">300</span>+</h2>
                             <p>
-                                Completed <br>
-                                Visa Passport
+                                Applications <br>
+                                Assisted
                             </p>
                         </div>
                     </div>
@@ -583,10 +578,10 @@ Home
                             <i class="flaticon-immigration-officer"></i>
                         </div>
                         <div class="content">
-                            <h2><span class="count">4</span>+</h2>
+                            <h2><span class="count">12</span>+</h2>
                             <p>
-                                Experience <br>
-                                immigration officer
+                                Member <br>
+                                Expert Team
                             </p>
                         </div>
                     </div>
@@ -609,34 +604,35 @@ Home
             <div class="testimonial-card-items">
                 <div class="author-items">
                     <div class="author-image bg-cover"
-                        style="background-image: url('front/img/all-image/team/team-1.jpg');"></div>
+                        style="background-image: url('front/img/testimonial/raj-savaliya.png');"></div>
                     <div class="author-content">
-                        <h5>kaushik lakhani</h5>
+                        <h5>Raj Savaliya</h5>
                         <!-- <span>Web Developer</span> -->
                     </div>
                 </div>
                 <p>
-                    I had an amazing experience working with Quality migration for my work permit application. From the initial consultation to the final approval, they were professional, knowledgeable, and incredibly supportive throughout the process.
-                    Thanks to their expertise and attention to detail, my work permit was granted without any issues. I truly appreciate their dedication and highly recommend them to anyone needing help with visas or migration services.
+                   A huge thank you to the Quality Migration team for their incredible support throughout this journey.
+                    Special appreciation to Zarana Sangani and Rushita Bhadani — their guidance and expertise helped me secure my Temporary Residence, student visa extension, my spouse’s TR, and even my spouse’s positive Skills Assessment.
+                    I truly appreciate their professionalism and dedication. Highly recommend Quality Migration to anyone navigating their visa or assessment process.
                 </p>
                 <ul>
-                    <li>July 19, 2025</li>
+                    <li>October 19, 2025</li>
                 </ul>
             </div>
 
             <div class="testimonial-card-items">
                 <div class="author-items">
                     <div class="author-image bg-cover"
-                        style="background-image: url('front/img/all-image/team/team-2.jpg');"></div>
+                        style="background-image: url('front/img/testimonial/parth.png');"></div>
                     <div class="author-content">
-                        <h5>Mayur Sakhareliya</h5>
+                        <h5>Parth Vithani</h5>
                         <!-- <span>UI Designer</span> -->
                     </div>
                 </div>
                 <p>
-                    I recently went through the process of getting my wife's B.Com degree assessed with the help of Quality Migration, and I want to sincerely thanks to Naisargi for her exceptional support.
-                    She was honest, knowledgeable, and guided us in the right direction throughout the entire process. Her clear communication and genuine dedication made the experience smooth and stress-free.
-                    I truly appreciate her efforts and highly recommend Quality Migration for anyone seeking professional and trustworthy migration services.
+                   I can’t thank Quality migration enough for their outstanding service and support throughout my visa and migration process! From the very first consultation, they were professional, knowledgeable, and genuinely caring.
+                    They guided me step by step, explained every detail clearly, and always responded quickly to my questions. Their expertise made what could have been a stressful process completely smooth and worry-free. I truly appreciated their honesty, attention to detail, and dedication to achieving the best possible outcome.
+                    Thanks to their hard work, my application was approved faster than I expected. I highly recommend rushita bhadani to anyone looking for a reliable and trustworthy migration agent — they truly go above and beyond for their clients!
                 </p>
                 <ul>
                     <li>July 28, 2025</li>
@@ -646,16 +642,14 @@ Home
             <div class="testimonial-card-items">
                 <div class="author-items">
                     <div class="author-image bg-cover"
-                        style="background-image: url('front/img/all-image/team/team-3.jpg');"></div>
+                        style="background-image: url('front/img/testimonial/patel-dhaval.png');"></div>
                     <div class="author-content">
-                        <h5>Utsav Vaghani</h5>
+                        <h5>Patel Dhaval</h5>
                         <!-- <span>WordPress Developer</span> -->
                     </div>
                 </div>
                 <p>
-                    I had a wonderful experience working with Rushita mam from Quality Migration.
-                    From the very beginning, she was incredibly supportive and always available whenever I had questions or concerns—no matter the time.
-                    Communication was smooth and effortless, and I truly appreciated how fast and clearly she responded to every message.
+                   I recently got my positive skill assessment with [ Quality Migration Education & Visa Service]. The process was smooth and well-organized. The instructions were clear, and the staff were very supportive throughout the assessment. I really appreciate the professionalism and timely communication. Overall, it was a positive experience and I would highly recommend Quality Migration Education & Visa Service to others.
                 </p>
                 <ul>
                     <li>June 30, 2025</li>
@@ -665,20 +659,68 @@ Home
             <div class="testimonial-card-items">
                 <div class="author-items">
                     <div class="author-image bg-cover"
-                        style="background-image: url('front/img/all-image/team/team-4.jpg');"></div>
+                        style="background-image: url('front/img/testimonial/ROSHNI.png');"></div>
                     <div class="author-content">
-                        <h5>Nirali Maniya</h5>
+                        <h5>ROSHNI</h5>
                         <!-- <span>Frontend Engineer</span> -->
                     </div>
                 </div>
                 <p>
-                    Dear Quality Migration,
-                    I wanted to take a moment to thank you for your support in submitting my skill assessment file. 
-                    I’m thrilled to hear that it received a positive response!
-                    Your professionalism and attention to detail throughout the process made the entire experience seamless
+                   I’m truly grateful for the outstanding service provided by Quality Migration specially RUSHI di and ZARANA SANGANI. Their professionalism, clear communication, and genuine care made my migration process smooth and stress-free. I highly recommend them to anyone looking for a trustworthy and experienced migration agent. Thank you for helping me achieve my dream!
                 </p>
                 <ul>
                     <li>July 01, 2025</li>
+                </ul>
+            </div>
+
+            <div class="testimonial-card-items">
+                <div class="author-items">
+                    <div class="author-image bg-cover"
+                        style="background-image: url('front/img/testimonial/hardik.png');"></div>
+                    <div class="author-content">
+                        <h5>Hardik Dhorajiya</h5>
+                        <!-- <span>Frontend Engineer</span> -->
+                    </div>
+                </div>
+                <p>
+                  I had a fantastic experience with Quality Migration - Education & Visa Services. The entire team was extremely professional, knowledgeable, and supportive throughout my student visa process. They explained every step clearly, helped me prepare all the required documents, and made sure everything was submitted on time. Their guidance made a stressful process feel smooth and manageable. I’m now happily studying in Australia thanks to their efforts. Highly recommended for anyone looking for reliable migration or education consultancy!
+                </p>
+                <ul>
+                    <li>Aug 11, 2025</li>
+                </ul>
+            </div>
+
+            <div class="testimonial-card-items">
+                <div class="author-items">
+                    <div class="author-image bg-cover"
+                        style="background-image: url('front/img/testimonial/gautam-talaviya.png');"></div>
+                    <div class="author-content">
+                        <h5>Gautam Talaviya</h5>
+                        <!-- <span>Frontend Engineer</span> -->
+                    </div>
+                </div>
+                <p>
+                   I had almost lost hope after trying with other visa services, but Quality Migration completely changed my journey. Their team is highly professional, transparent, and supportive throughout the process. They guided me step by step and made what felt impossible into a reality – I successfully received my PR grant! I can’t thank them enough and highly recommend them to anyone seeking reliable and result-driven migration assistance.</p>
+                <ul>
+                    <li>Aug 16, 2025</li>
+                </ul>
+            </div>
+
+            <div class="testimonial-card-items">
+                <div class="author-items">
+                    <div class="author-image bg-cover"
+                        style="background-image: url('front/img/testimonial/Prajapati-Parth.png');"></div>
+                    <div class="author-content">
+                        <h5>Prajapati Parth</h5>
+                        <!-- <span>Frontend Engineer</span> -->
+                    </div>
+                </div>
+                <p>
+                    I’m so thankful to Quality Migration Education and Visa Services, especially Rushita Bhadani for helping me get a positive skill assessment, something I was told was impossible. Multiple agents said my degree couldn’t be assessed, but Quality Migration believed in my case, guided me properly, and achieved what others couldn’t. Highly recommended for anyone facing tough situations!
+                    Thank you Quality Migration Education and Visa Services
+                </p>
+                <ul>
+                    <li>July 21, 2025</li>
                 </ul>
             </div>
         </div>

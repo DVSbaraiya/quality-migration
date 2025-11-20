@@ -399,7 +399,6 @@
 		height: 100%;
 		width: 110px;
 		content: "";
-		background-color: $theme-color;
 		z-index: -1;
 
 		@include breakpoint (max-xl4){
@@ -1545,4 +1544,218 @@
 }
 .privacy-policy-content ul {
   margin-bottom: 20px;
+}
+
+.font-size-icon{
+  font-size: 18px;
+}
+
+.contact-success-section {
+    background: #0a5190; /* Dark green background like your screenshot */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.success-heading {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+
+.success-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.success-box {
+    background: #ffffff;
+    padding: 50px 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.success-icon {
+    font-size: 60px;
+    color: #0a5190;
+    margin-bottom: 20px;
+}
+
+.success-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.success-message {
+    font-size: 16px;
+    color: #555555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.student-first-sec h2{
+	  color: #e31e25;
+    font-size: 36px;
+    margin-bottom: 10px !important;
+}
+.student-first-sec p{
+	font-weight: 500;
+    color: #000;
+}
+
+.why-choose-student-visa h3{
+    font-size: 28px;
+    color: #e31e25;
+    font-weight: 700;
+}
+
+.why-choose-student-visa ul li{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.student-pass-visa-step h2{
+    font-size: 36px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.step-by-step-student{
+  border: 2px dotted #e31e25;
+  padding: 20px;
+  height: 90%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.step-by-step-student h4{
+    font-size: 26px;
+    color: #e31e25;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.step-by-step-student p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.student-pass-visa-step p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+
+.details-content h3{
+    font-size: 28px;
+    color: #e31e25;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.details-content p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.trade-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.trade-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 22px;
+    margin-bottom: 25px;
+    border: 1px solid #e8edf3;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+    transition: 0.25s ease;
+}
+
+.trade-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.trade-card .icon-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.trade-card .icon-item i {
+    color: #1e9d5a;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.trade-card .icon-item h6 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.section-div h3{
+    font-size: 28px;
+    color: #e31e25;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section-div p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-div ul li{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.primary-website-text{
+    color: #e31e25;
+    font-weight: 700;
+}
+
+.header-top-wrapper .top-right .social-icon a{
+  width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    background: #000;
+    color: var(--white);
+    border-radius: 50%;
+    -webkit-transition: all 0.4s 
+ease-in-out;
+    transition: all 0.4s 
+ease-in-out;
+    text-align: center;
+}
+
+.header-top-wrapper .top-right .social-icon a:hover{
+    color: var(--black);
+    background: var(--white);
 }

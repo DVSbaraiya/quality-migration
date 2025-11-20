@@ -102,8 +102,7 @@
                             </p>
                             <h5>Hours:</h5>
                             <p>
-                                9.30am – 6.30pm <br>
-                                Monday to Friday
+                              Monday-friday, 10:00 am - 06:30 pm
                             </p>
                         </div>
                     </div>

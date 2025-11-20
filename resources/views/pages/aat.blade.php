@@ -21,7 +21,7 @@
                         <i class="fal fa-minus"></i>
                     </li>
                     <li>
-                        AAT
+                        ART
                     </li>
                 </ul>
             </div>
@@ -118,34 +118,20 @@
 
                             <!-- Next Steps Section -->
                             <div class="bg-danger text-white p-4 rounded shadow-sm mb-4">
-                                <h3 class="mb-3"><i class="bi bi-arrow-repeat me-2"></i>Next Steps: Administrative Appeals
-                                    Tribunal (AAT)</h3>
+                                <h3 class="mb-3 text-white"><i class="bi bi-arrow-repeat me-2"></i>Next Steps: Administrative Appeals
+                                    Tribunal (ART)</h3>
                                 <p>If your visa was refused or canceled, you may be eligible to apply for a review through
-                                    the <strong>Administrative Appeals Tribunal (AAT)</strong>.</p>
+                                    the <strong>Administrative Appeals Tribunal (ART)</strong>.</p>
                                 <ul>
                                     <li>The AAT reviews decisions independently under Commonwealth law.</li>
                                     <li>You must appeal within the timeframe mentioned in your notice.</li>
                                     <li>Some visa types require an application fee.</li>
                                     <li>Not all decisions are reviewable—check eligibility first.</li>
                                 </ul>
-                                <a href="{{ route('contact') }}" class="btn btn-light text-primary mt-3">Contact Us for
+                                <a href="{{ route('contact') }}" class="btn btn-dark text-white mt-3">Contact Us for
                                     Appeal Support</a>
                             </div>
                         </div>
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h5 class="card-title text-success">Why Choose Quality Migration?</h5>
-                                <ul>
-                                    <li>• 🌟 20 Years of Experience: Trusted expertise in migration services.</li>
-                                    <li>• 🌐 Comprehensive Support: Assistance with all visa types and courses.
-                                    </li>
-                                    <li>• 💬 Multilingual Team: English, Mandarin, Malay, Tagalog, and more.
-                                    </li>
-                                    <li>• ⭐ High Satisfaction: Rated 4.8/5 by our clients.</li>
-                                </ul>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>

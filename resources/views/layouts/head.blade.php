@@ -6,7 +6,7 @@
 <!-- ======== Page title ============ -->
 <title> @yield('title') - Quality Migration Education & Visa Services</title>
 <!--<< Favcion >>-->
-<link rel="shortcut icon" href="{{asset("front/img/favicon.svg")}}">
+<link rel="shortcut icon" href="{{asset("front/img/logo/favicon.png")}}">
 <!--<< Bootstrap min.css >>-->
 <link rel="stylesheet" href="{{asset('front/css/bootstrap.min.css')}}">
 <!--<< Font Awesome.css >>-->

@@ -81,14 +81,14 @@
                             </div>
 
                             <div class="container py-5">
-                                <div class="mb-5">
-                                    <h3 class="title-anime text-danger">Post-Study Work Stream Changes</h3>
-                                    <p class="mb-4">• Duration updates:</p>
+                                <div class="mb-5 section-div">
+                                    <h3 class="">Post-Study Work Stream Changes</h3>
+                                    <p class="mb-2">Duration updates:</p>
                                     <ul class="list-unstyled text-start">
-                                        <li> o Bachelor/Master by
+                                        <li>• Bachelor/Master by
                                             Coursework: 2 years.
                                         </li>
-                                        <li> o Master by Research/PhD: 3
+                                        <li>• Master by Research/PhD: 3
                                             years.</li>
                                         <li>• The ‘select degree’ 2-year
                                             extension has been discontinued.
@@ -96,8 +96,8 @@
                                     </ul>
                                 </div>
                                 <div class="container py-5">
-                                    <div class="mb-5">
-                                        <h3 class="text-danger title-anim">Special Provisions for Indian Nationals</h3>
+                                    <div class="mb-5 section-div">
+                                        <h3 >Special Provisions for Indian Nationals</h3>
                                         <p class="mb-4">Benefits under the Australian Indian – Economic Cooperation and
                                             Trade Agreement (AI-ECTA):</p>
                                         <ul class="list-unstyled text-start">
@@ -114,7 +114,8 @@
 
                                     <div class="row mb-5">
                                         <div class="col-md-6">
-                                            <h3 class="text-danger title-anim">English Language Requirement Updates</h3>
+                                            <div class="section-div">
+                                                <h3 class="">English Language Requirement Updates</h3>
                                             <p><strong>Effective: 23rd March 2024</strong></p>
                                             <ul class="list-unstyled">
                                                 <li><i class="bi bi-translate icon-bullet"></i> <strong>Minimum Overall
@@ -126,6 +127,7 @@
                                                 <li><i class="bi bi-flag icon-bullet"></i> <strong>Exception:</strong> Hong
                                                     Kong & BNO passport holders retain IELTS 6.0 (no band < 5.0)</li>
                                             </ul>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
                                             <img src="{{ asset('front/img/all-image/early/How-to-Learn-English-.jpg') }}"
@@ -164,20 +166,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card shadow-sm">
-                                <div class="card-body">
-                                    <h5 class="card-title text-success">Why Choose Quality Migration?</h5>
-                                    <ul>
-                                        <li>• Expert Guidance: Registered Migration Agents (MARN).</li>
-                                        <li>• End-to-End Support: Application preparation, police checks, insurance setup,
-                                            and medical checkup advice.</li>
-                                        <li>• Proven Success: 4.9/5 customer satisfaction rating.</li>
-                                        <li>• Multilingual Support: Services available in multiple languages (English,
-                                            Mandarin, Vietnamese, and more).</li>
-                                    </ul>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                 </div>

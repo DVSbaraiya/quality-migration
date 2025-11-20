@@ -28,22 +28,22 @@
 
     <!--<< Coaching Section Start >>-->
     <section class="coaching-details-section fix section-padding">
-        <div class="container">
+        <div class="container px-4 px-md-0">
             <div class="coaching-details-wrapper">
                 <div class="row g-5">
                     <div class="col-12">
                         <div class="details-content">
-                            <h3 class="title-anim text-danger">PTE Academic: Pearson Test of English</h3>
+                            <h3 class="">PTE Academic: Pearson Test of English</h3>
                             <p>The <b>PTE Academic</b> test is a popular choice for students and migrants looking to meet
                                 English proficiency requirements for visas, education, and professional purposes.</p>
                         </div>
                         <section class="py-5">
                             <div class="container">
                                 <!-- PTE Section -->
-                                <h4 class="text-center text-danger mb-4">Why Choose PTE Academic?</h4>
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <h5 class="text-success">1. Unbiased Scoring</h5>
+                                    <div class="col-md-6 mb-5">
+                                        <h4 class="">Why Choose PTE Academic?</h4>
+                                        <h5 class="mb-2 mt-3">1. Unbiased Scoring</h5>
                                         <ul>
                                             <li>PTE Academic is scored by Artificial Intelligence (AI) rather than human
                                                 markers.
@@ -52,7 +52,7 @@
                                                 human evaluation based on thousands of previous responses.
                                             </li>
                                         </ul>
-                                        <h5 class="text-success">2. Fast Results</h5>
+                                        <h5 class="my-3">2. Fast Results</h5>
                                         <ul>
                                             <li>• Unlike other tests like IELTS, PTE Academic provides quick turnaround
                                                 times.
@@ -62,19 +62,19 @@
                                     </div>
                                     <div class="col-md-6">
                                         <img src="{{ asset('front/img/all-image/early/PTE-TEST.webp') }}"
-                                            class="img-fluid" alt="PTE">
+                                            class="img-fluid" alt="PTE" style="border-radius: 10px;">
                                     </div>
                                 </div>
 
                                 <!-- Student Guardian Visa Section -->
-                                <h4 class="text-center text-danger my-5">Key Benefits of PTE Academic</h4>
-                                <div class="row">
+                                <div class="row my-5">
                                     <div class="col-md-6">
                                         <img src="{{ asset('front/img/all-image/early/pte2.jpg') }}"
-                                            class="img-fluid" alt="Guardian Visa">
+                                        class="img-fluid" alt="Guardian Visa" style="border-radius: 10px;">
                                     </div>
                                     <div class="col-md-6">
-                                        <ul>
+                                        <h4 class="">Key Benefits of PTE Academic</h4>
+                                        <ul class="mt-3">
                                             <li>• Recognized globally for visa applications, higher education, and work
                                                 opportunities.</li>
                                             <li>• Flexible test schedules and various locations worldwide.
@@ -82,19 +82,6 @@
                                             <li>• A computer-based test that evaluates reading, writing, listening, and
                                                 speaking.</li>
                                         </ul>
-                                    </div>
-
-                                </div>
-
-                                <!-- Why Choose Quality Migration Section -->
-                                <h4 class="text-center text-danger my-5">Preparation Course Details</h4>
-                                <p>Get ready for your PTE Academic test with expert guidance!</p>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p>• Course Fee: $750 (Unlimited access until you succeed)</p>
-                                        <p>• Comprehensive materials and practice sessions designed to improve all test
-                                            sections.</p>
-
                                     </div>
                                 </div>
                             </div>

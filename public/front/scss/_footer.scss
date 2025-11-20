@@ -149,16 +149,16 @@
                     text-align: center;
                     font-size: 16px;
                     display: block;
-                    background: rgba(92, 92, 91, .1);
-                    color:  $text-color-2;
+                    background:$theme-color;
+                    color: $white;
                     border-radius: 50%;
                     -webkit-transition: all .4s ease-in-out;
                     transition: all .4s ease-in-out;
                     text-align: center;
     
                     &:hover {
-                        background-color: $theme-color;
-                        color: $white;
+                        background-color: rgba(92, 92, 91, .1);
+                        color: $text-color-2;
                     }
                 }
             }

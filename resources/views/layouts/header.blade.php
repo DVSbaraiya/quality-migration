@@ -18,10 +18,10 @@
                 </ul>
                 <div class="top-right">
                     <div class="social-icon d-flex align-items-center">
-                        <a href="https://www.facebook.com/share/1a6hNZVHxC/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/qualitymigration_australia/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@quality.migration?_r=1&_t=ZS-91V2tAd44bh"><i class="fab fa-tiktok"></i></a>
-                    </div>
+                                <a href="https://www.facebook.com/share/1a6hNZVHxC/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/qualitymigration_australia/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@quality.migration?_r=1&_t=ZS-91V2tAd44bh"><i class="fab fa-tiktok"></i></a>
+                            </div>
                 </div>
             </div>
         </div>
@@ -249,7 +249,7 @@
                                 <i class="fal fa-clock"></i>
                             </div>
                             <div class="offcanvas__contact-text">
-                                <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                <a target="_blank" href="#">Monday-friday, 10:00 am - 06:30 pm</a>
                             </div>
                         </li>
                         <li class="d-flex align-items-center">

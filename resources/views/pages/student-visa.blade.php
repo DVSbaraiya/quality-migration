@@ -25,230 +25,240 @@
             </div>
         </div>
     </div>
+    @if (Session::has('success'))
+<section class="contact-success-section">
+    <div class="success-container">
+        <h1 class="success-heading">
+            Thank you for contacting us, we are here to help.<br>
+            We will be in touch shortly.
+        </h1>
+
+        <div class="success-box">
+            <div class="success-icon">
+                <i class="far fa-thumbs-up"></i>
+            </div>
+
+            <h2 class="success-title">We will be in touch shortly</h2>
+
+            <p class="success-message">
+                Thanks for getting in touch. We appreciate your enquiry and a member of our team
+                will be in touch with you shortly.
+            </p>
+        </div>
+    </div>
+</section>
+@endif
+
+
+    @if (Session::has('error'))
+        <div class="alert alert-danger">
+            {{ Session::get('error') }}
+        </div>
+    @endif
 
     <!--<< Coaching Section Start >>-->
-    <section class="coaching-details-section fix section-padding">
+    <section class="coaching-details-section fix pt-5">
         <div class="container">
             <div class="coaching-details-wrapper">
                 <div class="row g-5">
                     <div class="col-12">
-                        <div class="details-content">
-                            <h3 class="title-anim text-danger my-5">Student Visa (Subclass 500)</h3>
-                            <p>The <b>Student Visa (Subclass 500)</b> is designed for international students who wish to
-                                study at a
-                                registered education institution in Australia.</p>
-                        </div>
                         <section class="pb-5">
                             <div class="container">
-                                <!-- Student Visa Section -->
-                                <h4 class="text-center text-danger my-5">Key Features of the Student Visa</h4>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5 class="my-2">Key Features of the Student Visa:</h5>
-                                        <ul>
-                                            <li>• Eligibility: Available for students at all levels, from primary school to
-                                                Ph.D.
-                                                programs.</li>
-                                            <li>• Family Inclusion: You can bring your family members to Australia with you.
-                                            </li>
-                                            <li>• Work Rights: Both you and your family members can work a specified number
-                                                of
-                                                hours while holding this visa.</li>
-                                        </ul>
-                                        <h5 class="my-2">Application Options:</h5>
-                                        <ul>
-                                            <li>• Can be applied for onshore (within Australia) or offshore (outside
-                                                Australia).
-                                            </li>
-                                        </ul>
-                                        <h5 class="my-2">Benefits of the Student Visa:</h5>
-                                        <ul>
-                                            <li>• Opportunity to participate in an eligible full-time course in Australia.
-                                            </li>
-                                            <li>• Flexibility to gain work experience while studying.</li>
-                                            <li>• A pathway to explore potential migration opportunities after completing
-                                                your
-                                                studies.</li>
-                                        </ul>
+                                        <div class="student-first-sec">
+                                            <h2 class="text-danger mb-4">Your Trusted Partner for Australia Student Visas</h2>
+                                            <p>Australia is one of the world’s top destinations for international students seeking quality education, vibrant cultural experiences, and excellent career prospects. The Australian Student Visa (Subclass 500) allows you to study full-time at a registered education institution while enjoying the benefits of living in a safe, multicultural, and dynamic country.
+                                                At onboard Visas, we are registered MARA agents authorised by Australian Government. We provide expert guidance and support to help navigate the Australian Student Visa application process smoothly and confidently.
+                                            </p>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <img src="{{ asset('front/img/all-image/early/student-visa.jpeg') }}"
-                                            class="img-fluid" alt="Student Visa">
+                                            class="img-fluid" alt="Student Visa" style="border-radius: 10px;">
                                     </div>
                                 </div>
 
                                 <!-- Student Guardian Visa Section -->
-                                <h4 class="text-center text-danger my-5">Student Guardian Visa (Subclass 590)</h4>
+                                <div class="my-5 why-choose-student-visa">
+                                    <h3 class="">Why Choose a Student Visa for Australia?</h3>
+                                    <ul class="mt-2">
+                                        <li>• Access to world-class universities, colleges, and vocational training</li>
+                                        <li>• Opportunity to work part-time while studying to support your living expenses</li>
+                                        <li>• Pathways to permanent residency through post-study work and skilled migration</li>
+                                        <li>• Experience Australia’s multicultural society and stunning natural environment</li>
+                                        <li>• Gain internationally recognized qualifications to boost your career worldwide</li>
+                                    </ul>
+                                </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5 class="my-2">Key Features of the Guardian Visa:</h5>
-                                        <ul>
-                                            <li>• Eligibility: For foreign nationals who wish to stay in Australia as a
-                                                guardian
-                                                for an international student.</li>
-                                            <li>• Duration: The visa is valid for the same length of time as the student's
-                                                visa.
-                                            </li>
-                                            <li>• Multiple Entry: Holders of this visa can enter and exit Australia multiple
-                                                times
-                                                during the visa’s validity.</li>
-                                        </ul>
-                                        <h5 class="my-2">Benefits of the Guardian Visa:</h5>
-                                        <ul>
-                                            <li>• Ensure the student has proper care and support during their time in
-                                                Australia.
-                                            </li>
-                                            <li>• Reside legally in Australia alongside the student.</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="{{ asset('front/img/all-image/early/visa-590.jpg') }}"
-                                            class="img-fluid" alt="Guardian Visa">
-                                    </div>
-                                </div>
-
-                                <!-- Why Choose Quality Migration Section -->
-                                <h4 class="text-center text-danger my-5">Why Choose Quality Migration?</h4>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p>At Quality Migration, we provide expert advice and support to help you navigate
-                                            the
-                                            process of applying for a Student Visa or a Student Guardian Visa.</p>
-                                        <h5 class="my-2">Our Services:</h5>
-                                        <ul>
-                                            <li>• Assistance with visa applications.</li>
-                                            <li>• Guidance on selecting the right course and institution.</li>
-                                            <li>• Information on visa conditions, work rights, and family inclusion.</li>
-                                            <li>• Expert advice on pathways to further visas or permanent residency.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <!-- Student Visa Extension Section -->
-                                <h4 class="text-center text-danger my-5">Student Visa Extension</h4>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h5 class="my-2">Is Your Visa Expiring Soon?</h5>
-                                        <p>If your current visa is nearing its expiry date and you’re considering applying
-                                            for a
-                                            student visa, it is critical to take action before your current visa expires.
-                                            Overstaying your visa is a breach of conditions and can have serious
-                                            consequences.
-                                        </p>
-                                        <h5 class="my-2">When Should You Apply for a New Visa or Extension?</h5>
-                                        <ul>
-                                            <li>• Ideally, apply for a Student Visa or Student Visa extension 3–6 months
-                                                before
-                                                your current visa expiry date.</li>
-                                            <li>• If your visa is expiring soon and you haven’t yet applied, don’t
-                                                delay—contact
-                                                us today for assistance!</li>
-                                        </ul>
-                                        <h5 class="my-2">Common Reasons for a Visa Extension:</h5>
-                                        <ul>
-                                            <li>• Commencing a New Course.</li>
-                                            <li>• Extended Study Period.</li>
-                                            <li>• Pending Research/PhD Proposal Outcome.</li>
-                                            <li>• Uncompleted Course (Failed subjects, Leave of Absence, Reduced Study
-                                                Load).
-                                            </li>
-                                            <li>• Administrative Cancellation.</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img src="{{ asset('front/img/all-image/early/Visa_Extension_renewal.png') }}"
-                                            class="img-fluid" alt="Visa Extension">
-                                    </div>
-                                </div>
-
-                                <!-- Bridging Visas Section -->
-                                <h4 class="text-center text-danger my-5">Bridging Visas for Onshore Applications</h4>
-                                <div class="service-wrapper">
-
-                                    <div class="row">
-                                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s"
-                                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                            <div class="service-card-items">
-                                                <h5 class="my-2">Bridging Visa A (BVA):</h5>
-                                                <p>Allows lawful stay in Australia while your visa is being processed.</p>
-                                                <h5 class="my-2">Bridging Visa B (BVB):</h5>
-                                                <p>Provides permission to travel outside Australia while waiting for your
-                                                    visa
-                                                    outcome.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s"
-                                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                            <div class="service-card-items">
-
-                                                <h5 class="my-2">Offshore Applications:</h5>
-                                                <p>You must wait for your student visa to be granted before returning to
-                                                    Australia.
-                                                    Border restrictions may impact the process, so consult with our experts
-                                                    for the
-                                                    best
-                                                    course of action.</p>
-                                            </div>
+                                        <div class="why-choose-student-visa">
+                                            <h3 class="my-2">Key Features of the Australian Student Visa</h3>
+									        <ul>
+                                                <li><strong>Duration:</strong> Valid for the length of your course plus additional time for travel or further study</li>
+                                                <li><strong>Work Rights:</strong> Up to 48 hours per fortnight during the study term and unlimited hours during scheduled breaks</li>
+                                                <li><strong>Dependents:</strong> Allows eligible family members to accompany you</li>
+                                                <li><strong>Health Insurance:</strong> Requires Overseas Student Health Cover (OSHC) for the visa duration</li>
+                                                <li><strong>Genuine Student (GS) Requirement:</strong> You must prove your intention to study temporarily in Australia</li>
+                                            </ul>								
                                         </div>
                                     </div>
-                                </div>
-
-                                <!-- Key Considerations Section -->
-                                <h4 class="text-center text-danger my-5">Key Considerations for Visa Extensions</h4>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h5 class="my-2">Documents Required:</h5>
-                                        <ul>
-                                            <li>• Health Check: Ensuring your medical requirements are met.</li>
-                                            <li>• Financial Proof: Demonstrating your ability to support your studies and
-                                                stay
-                                                in
-                                                Australia.</li>
-                                        </ul>
+                                    <div class="col-md-6">
+                                        <img src="{{ asset('front/img/student-visa-photo.webp') }}"
+                                            class="img-fluid" alt="Guardian Visa" style="border-radius: 10px;">
                                     </div>
                                 </div>
-
-                                <!-- Why Choose Quality Migration Section -->
-                                <h4 class="text-center text-danger my-5"></h4>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h5 class="my-2">Affordable Service & Expertise:</h5>
-                                        <p></p>
-                                        <h5 class="my-2"></h5>
-                                        <ul>
-                                            <li>• Assistance with visa extensions, course changes, PR applications, TR 485,
-                                                partner visas, regional migration, and more.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <section class="py-5 bg-light">
-                                    <div class="container">
-                                        <div class="row align-items-center">
-                                            <div class="col-md-6 mb-4 mb-md-0">
-                                                <img src="{{ URL::asset('front/img/all-image/visa-detail/contact.jpg') }}"
-                                                    alt="Quality Migration Support" class="img-fluid rounded shadow">
-                                            </div>
-                                            <div class="col-md-6">
-                                                <h3 class="mb-4 text-danger">Why Choose <span class="text-dark">Quality
-                                                        Migration?</span></h3>
-                                                <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item bg-light"><strong>Affordable Service &
-                                                            Expertise:</strong>Over 20 years of experience with registered
-                                                        migration agents (MARN: 2518800) and
-                                                        education agents.</li>
-                                                    <li class="list-group-item bg-light"><strong>Comprehensive
-                                                            Support:</strong>Assistance with visa extensions, course
-                                                        changes, PR applications, TR 485, partner visas, regional migration,
-                                                        and more.
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
                             </div>
                         </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="coaching-details-section fix pt-5">
+        <div class="container">
+            <div class="student-pass-visa-step">
+                <h2>
+                    Step-by-Step Process to Apply for Australian Student Visa
+                </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 1: Select Your Course and Institution</h4>
+                            <p>Choose a registered Australian education provider and obtain an official offer letter.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 2: Fulfil the Genuine Student (GS) Requirement</h4>
+                            <p>Prepare a GS statement (formerly GTE) demonstrating your genuine intention to study temporarily in Australia. Include details on your study objectives, financial capacity, and strong ties to your home country.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 3: Obtain Your Confirmation of Enrolment (CoE)</h4>
+                            <p>After accepting your offer and paying the required tuition fees, your institution will issue a Confirmation of Enrolment (CoE), which is essential for your visa application.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 4: Prepare Required Documentation</h4>
+                            <p>Gather all necessary documents, including proof of identity, academic transcripts, English proficiency test results, financial evidence, and Overseas Student Health Cover (OSHC).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 5: Submit Your Visa Application</h4>
+                            <p>Apply online via the ImmiAccount portal on the Department of Home Affairs website using your CoE.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 6: Complete Biometrics and Health Examinations</h4>
+                            <p>Provide biometrics and undergo any required medical assessments as requested by the authorities.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 7: Await the Visa Decision</h4>
+                            <p>Processing times may vary. You can monitor your application’s progress through the online tracking system.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="step-by-step-student">
+                            <h4>Step 8: Prepare for Your Journey to Australia</h4>
+                            <p>Once approved, finalise your travel arrangements and begin your studies with confidence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section class="contact-main-area fix section-padding">
+        <div class="container">
+            <div class="contact-main-wrapper">
+                <div class="student-pass-visa-step">
+                    <h2 class="mb-2">Begin Your Australian Education Journey Today </h2>
+                    <p>Studying in Australia opens doors to a bright future. Contact Onboard Visas now for a free consultation to explore your options and receive professional help with your student visa application.</p>
+                </div>
+                <div class="row g-4 mt-5">
+                    <div class="col-lg-6">
+                        <div class="contact-form-items">
+                            <div class="contact-title">
+                                <h3 class="wow fadeInUp" data-wow-delay=".3s">Fill Up The Form</h3>
+                                <p class="wow fadeInUp" data-wow-delay=".5s">Your email address will not be published.
+                                    Required fields are marked *</p>
+                            </div>
+                            <form action="{{ route('contact.send') }}" method="POST">
+                                @csrf
+                                <div class="row g-4">
+                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="form-clt">
+                                            <input type="text" name="name" id="name" placeholder="Your Name*">
+                                            <div class="icon">
+                                                <i class="fal fa-user"></i>
+                                            </div>
+                                            <span class="text-danger">
+                                                @error('name')
+                                                    {{ $message }}
+                                                @enderror
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="form-clt">
+                                            <input type="tel" name="number" id="number" placeholder="Your number*">
+                                            <div class="icon">
+                                                <i class="fal fa-mobile"></i>
+                                            </div>
+                                            <span class="text-danger">
+                                                @error('number')
+                                                    {{ $message }}
+                                                @enderror
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="form-clt">
+                                            <input type="text" name="email" id="email"
+                                                placeholder="Email Address*">
+                                            <div class="icon">
+                                                <i class="fal fa-envelope"></i>
+                                            </div>
+                                            <span class="text-danger">
+                                                @error('email')
+                                                    {{ $message }}
+                                                @enderror
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                        <div class="form-clt">
+                                            <textarea name="message" id="message" placeholder="Enter Your Message here"></textarea>
+                                            <div class="icon">
+                                                <i class="fal fa-edit"></i>
+                                            </div>
+                                            <span class="text-danger">
+                                                @error('message')
+                                                    {{ $message }}
+                                                @enderror
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
+                                        <button type="submit" class="theme-btn">
+                                            <span><i class="fal fa-paper-plane"></i>Get In Touch</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="student-visa-contact-image">
+                            <img src="{{ asset('front/img/contact-us.webp') }}" class="img-fluid" style="border-radius: 10px;" alt="Contact Us">
+                        </div>
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@
 
     <!--<< Coaching Section Start >>-->
     <section class="coaching-details-section fix section-padding">
-        <div class="container">
+        <div class="container px-4 px-md-0">
             <div class="coaching-details-wrapper">
                 <div class="row g-5">
                     <div class="col-lg-12">
@@ -40,14 +40,14 @@
 
                         </div>
                         <div class="details-content mt-3">
-                            <h3 class="title-anim text-danger">IT Occupations: Migration Pathways and Study Options</h3>
+                            <h3 class="title-anim">IT Occupations: Migration Pathways and Study Options</h3>
                             <p>At <b>Quality Migration,</b> we offer expert guidance on securing a bright future in
                                 Australia for
                                 IT professionals. With a high demand for skilled workers in the tech industry, the
                                 Australian government has prioritized IT occupations, providing a clear pathway to permanent
                                 residency (PR).</p>
                         </div>
-                        <section class="pb-5 pt-4 mt-2 bg-light">
+                        {{-- <section class="pb-5 pt-4 mt-2 bg-light">
                             <div class="container">
                                 <h5 class="text-center text-danger mb-4">Recent Updates in Migration for IT Occupations
                                 </h5>
@@ -240,10 +240,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> --}}
                     </div>
-
-
                 </div>
 
             </div>
