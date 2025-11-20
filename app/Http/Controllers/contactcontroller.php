@@ -34,11 +34,11 @@ class contactcontroller extends Controller
 
         try {
             Mail::send('mail.contact', ['contact' => $emailData], function ($message) {
-                $message->to('khudse1805@gmail.com', 'Quality Migration Admin')
+                $message->to('admin@qualitymigration.com', 'Quality Migration Admin')
                         ->subject('New Contact Form Submission');
             });
 
-            Log::info("Admin email sent successfully", ['email' => 'khudse1805@gmail.com']);
+            Log::info("Admin email sent successfully", ['email' => 'admin@qualitymigration.com']);
 
             Mail::send('mail.autoreply', ['contact' => $emailData], function ($message) use ($emailData) {
                 $message->to($emailData['email'], $emailData['name'])
