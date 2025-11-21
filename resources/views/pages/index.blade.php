@@ -1,6 +1,26 @@
 @extends('layouts.default')
 @section('title')
-Home
+Quality Migration – Registered Migration & Education Consultants Australia
+@endsection
+
+@section('description')
+Quality Migration is a Registered Migration & Education Consultancy (MARN2518800) offering expert guidance for Student, PR, Partner, Sponsored & Business visas in Australia.
+@endsection
+
+@section('tags')
+migration agent australia,
+registered migration agent,
+education consultant australia,
+student visa subclass 500,
+partner visa australia,
+family visa australia,
+sponsored visa australia,
+gsm visa australia,
+business visa australia,
+australian immigration consultant,
+pr pathway australia,
+visa consultation melbourne,
+marn migration agent
 @endsection
 
 @section('content')
@@ -396,11 +416,11 @@ Home
 
 <!--<< Cta Banner Section Start >>-->
 <div class="cta-banner-section bg-cover section-padding"
-    style="background-image: url('front/img/all-image/banner/statistic.jpg');">
+    style="background-image: url('front/img/home-banner.JPG');">
     <div class="container">
         <div class="cta-banner-wrapper section-padding pt-0">
             <div class="video-box">
-                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-buttton ripple video-popup">
+                <a href="https://www.youtube.com/watch?v=Kj_0SwckhcY" class="video-buttton ripple video-popup">
                     <i class="fas fa-play"></i>
                 </a>
             </div>

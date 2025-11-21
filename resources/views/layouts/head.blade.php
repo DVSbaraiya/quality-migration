@@ -2,9 +2,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="modinatheme">
-<meta name="description" content="Immigration and Visa Consulting Html Template">
+<meta name="description" content="@yield('description')">
+<meta name="keywords" content="@yield('tags')">
 <!-- ======== Page title ============ -->
-<title> @yield('title') - Quality Migration Education & Visa Services</title>
+<title>@yield('title')</title>
 <!--<< Favcion >>-->
 <link rel="shortcut icon" href="{{asset("front/img/logo/favicon.png")}}">
 <!--<< Bootstrap min.css >>-->

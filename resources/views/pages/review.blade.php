@@ -1,7 +1,26 @@
 @extends('layouts.default')
+
 @section('title')
-Client Review
+Client Reviews – Quality Migration Testimonials & Success Stories
 @endsection
+
+@section('description')
+Read real client reviews for Quality Migration. Discover success stories from students, PR applicants, workers, and families who trusted our education & visa services.
+@endsection
+
+@section('tags')
+quality migration reviews,
+client testimonials australia,
+migration agent reviews,
+visa success stories,
+student visa reviews,
+skill assessment reviews,
+education agent reviews,
+quality migration testimonial,
+pr visa success stories,
+migration consultancy feedback
+@endsection
+
 
 @section('content')
 <!-- Breadcrumb Section Start -->

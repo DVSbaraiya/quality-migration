@@ -1,7 +1,25 @@
 @extends('layouts.default')
+
 @section('title')
-    Contact
+Contact Quality Migration – Education & Visa Services Australia
 @endsection
+
+@section('description')
+Get in touch with Quality Migration for expert visa, PR, and education services. Contact us for consultations, enquiries, student visa help, and migration support.
+@endsection
+
+@section('tags')
+contact quality migration,
+migration agent melbourne,
+visa consultant contact,
+education agent australia,
+contact migration services,
+student visa help australia,
+pr visa consultation,
+australia visa enquiry,
+quality migration australia contact
+@endsection
+
 
 @section('content')
     <!--<< Breadcrumb Section Start >>-->

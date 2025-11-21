@@ -1,6 +1,27 @@
 @extends('layouts.default')
+
 @section('title')
-    Engineering
+Engineering in Australia – PR Pathways, Skilled Migration & Study Guide
+@endsection
+
+@section('description')
+Discover PR and skilled migration pathways for engineers in Australia. Learn about in-demand engineering occupations, study options, and expert migration guidance.
+@endsection
+
+@section('tags')
+engineering australia,
+engineering pr pathway australia,
+engineer skilled migration,
+australia engineering occupations,
+engineering jobs australia,
+anzsco engineering codes,
+subclass 189 engineering,
+subclass 190 engineering visa,
+civil engineer visa australia,
+mechanical engineer australia visa,
+electrical engineer migration,
+engineer study options australia,
+migration agent melbourne
 @endsection
 
 @section('content')

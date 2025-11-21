@@ -1,7 +1,27 @@
 @extends('layouts.default')
 @section('title')
-    Family & Partner Visa
+Family & Partner Visa Australia – Latest 309, 820/801 & 300 Updates
 @endsection
+
+@section('description')
+Learn about the latest Partner & Family Visa changes, including Subclass 309, 820/801, and 300 updates. Eligibility, requirements, and expert consultation included.
+@endsection
+
+@section('tags')
+family visa australia,
+partner visa australia,
+subclass 309 updates,
+subclass 820 visa,
+subclass 801 visa,
+subclass 300 prospective marriage visa,
+family violence provisions visa,
+partner visa changes 2024,
+australia partner visa requirements,
+migration agent melbourne,
+visa sponsorship australia,
+australian immigration partner visa
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

@@ -2,15 +2,35 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 @section('title')
-    AAT
+Visa Refusal & Cancellation Appeals – ART/AAT Review Guide Australia
 @endsection
+
+@section('description')
+Was your visa refused or canceled? Learn how to appeal through the Administrative Appeals Tribunal (ART/AAT), common refusal reasons, deadlines, and next steps.
+@endsection
+
+@section('tags')
+visa refusal australia,
+visa cancellation australia,
+aat appeal,
+art appeal australia,
+administrative appeals tribunal visa,
+visa review australia,
+visa refusal reasons,
+appeal visa refusal australia,
+migration agent visa refusal,
+visa cancellation review,
+aat tribunal australia,
+australia refusal appeal process
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->
     <div class="breadcrumb-wrapper section-padding bg-cover" style="background-image: url('front/img/breadcrumb.jpg');">
         <div class="container">
             <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">AAT </h1>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">ART </h1>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
                         <a href="{{ url('/') }}">
@@ -123,7 +143,7 @@
                                 <p>If your visa was refused or canceled, you may be eligible to apply for a review through
                                     the <strong>Administrative Appeals Tribunal (ART)</strong>.</p>
                                 <ul>
-                                    <li>The AAT reviews decisions independently under Commonwealth law.</li>
+                                    <li>The ART reviews decisions independently under Commonwealth law.</li>
                                     <li>You must appeal within the timeframe mentioned in your notice.</li>
                                     <li>Some visa types require an application fee.</li>
                                     <li>Not all decisions are reviewable—check eligibility first.</li>

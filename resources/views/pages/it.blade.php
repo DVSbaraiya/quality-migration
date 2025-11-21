@@ -1,6 +1,26 @@
 @extends('layouts.default')
+
 @section('title')
-    IT
+IT Occupations in Australia – PR Pathways & Skilled Migration Guide
+@endsection
+
+@section('description')
+Explore IT migration pathways in Australia. Learn about in-demand ICT occupations, PR options, skills assessment, and study opportunities for IT professionals.
+@endsection
+
+@section('tags')
+it occupations australia,
+ict occupations australia,
+it pr pathway australia,
+ict skilled migration australia,
+software engineer visa australia,
+it jobs australia migration,
+subclass 189 it occupations,
+subclass 190 ict australia,
+subclass 491 tech occupation,
+acs skills assessment australia,
+it visa australia,
+tech migration australia
 @endsection
 
 @section('content')

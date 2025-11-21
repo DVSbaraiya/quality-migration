@@ -1,6 +1,26 @@
 @extends('layouts.default')
 @section('title')
-    About Us - Quality Migration
+About Quality Migration – Registered Migration & Education Consultants
+@endsection
+
+@section('description')
+Learn about Quality Migration, a Registered Migration & Education Consultancy (MARN2518800) offering expert guidance for visas, PR pathways, education services, and student support.
+@endsection
+
+@section('tags')
+about quality migration,
+migration agent australia,
+registered migration agent,
+education consultant melbourne,
+student visa specialist,
+pr pathway consultation,
+australian immigration services,
+family visa consultant,
+partner visa consultant,
+visa experts melbourne,
+skilled migration consultant,
+marn migration agent,
+international student support
 @endsection
 
 
@@ -216,7 +236,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="service-card-items">
-                        <h3><a href="{{ route('contact') }}#contact-us-forma></h3>
+                        <h3><a href="{{ route('contact') }}#contact-us-forma">Migration Services</a></h3>
                         <ul>
                             <li>
                                 <p>•<b>Student Visas:</b>500 Student Visa and Student Visa Extensions.</p>
@@ -249,7 +269,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="service-card-items">
-                        <h3><a href="{{ route('contact') }}#contact-us-form</a></h3>
+                        <h3><a href="{{ route('contact') }}#contact-us-form">Personalized Consultation Services</a></h3>
                         <ul>
                             <li>
                                 <p>•<b>PR Pathway Consultation:</b>Explore your Permanent Residency (PR) options with a
@@ -280,7 +300,7 @@
                 <p class="wow fadeInUp" data-wow-delay=".5s">
                 <ul>
                     <li>• <b>Genuine Advice:</b> We value honesty and transparency in our guidance.</li>
-                    <li>• <b>Affordable Support:</b> No service fees for onshore student visa applications.</li>
+                    {{-- <li>• <b>Affordable Support:</b> No service fees for onshore student visa applications.</li> --}}
                     <li>• <b>High Success Rate:</b> Trusted by clients across Australia for consistent results</li>
                 </ul>
                 </p>
@@ -292,7 +312,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('contact') }}#contact-us-forma>
+                            <a href="{{ route('contact') }}#contact-us-form"> Working Visa </a>
                         </h6>
                     </div>
                 </div>
@@ -302,7 +322,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('contact') }}#contact-us-forma>
+                            <a href="{{ route('contact') }}#contact-us-form">  Tourist Visa </a>
                         </h6>
                     </div>
                 </div>
@@ -312,7 +332,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('contact') }}#contact-us-forma>
+                            <a href="{{ route('contact') }}#contact-us-form">Medical Visa </a>
                         </h6>
                     </div>
                 </div>
@@ -322,7 +342,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('contact') }}#contact-us-forma>
+                            <a href="{{ route('contact') }}#contact-us-form">Student Visa</a>
                         </h6>
                     </div>
                 </div>
@@ -332,7 +352,7 @@
                     </div>
                     <div class="content">
                         <h6>
-                            <a href="{{ route('contact') }}#contact-us-forma>
+                            <a href="{{ route('contact') }}#contact-us-form">Family Visa</a>
                         </h6>
                     </div>
                 </div>

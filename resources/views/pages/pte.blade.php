@@ -1,7 +1,28 @@
 @extends('layouts.default')
 @section('title')
-    PTE
+PTE Academic Australia – English Test for Visa, Study & PR (Guide)
 @endsection
+
+@section('description')
+Learn everything about PTE Academic for Australian visas and education. Understand scoring, benefits, fast results, and why PTE is preferred for migration and study.
+@endsection
+
+@section('tags')
+pte academic,
+pte academic australia,
+pte test for visa,
+english test australia visa,
+pte score requirement,
+pte vs ielts,
+pte migration australia,
+pte for student visa,
+pte for pr australia,
+pearson english test,
+pte exam preparation,
+pte academic features,
+pte fast results
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

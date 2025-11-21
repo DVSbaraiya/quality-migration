@@ -1,7 +1,28 @@
 @extends('layouts.default')
+
 @section('title')
-    Social Work
+Social Work in Australia – PR Pathways, Skilled Migration & Demand
 @endsection
+
+@section('description')
+Social Workers and Community Workers are in high demand in Australia. Explore PR pathways, skilled migration options, invitation trends, and career opportunities.
+@endsection
+
+@section('tags')
+social worker australia,
+social work pr pathway australia,
+community worker visa australia,
+social work migration australia,
+anzsco social worker,
+social worker visa subclass 190,
+social worker visa subclass 491,
+community worker australia migration,
+social work skilled occupation list,
+australia social worker demand,
+migration agent melbourne,
+pr pathway australia social work
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

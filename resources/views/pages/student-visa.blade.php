@@ -1,7 +1,29 @@
 @extends('layouts.default')
+
 @section('title')
-    Student visa
+Australia Student Visa (Subclass 500) – Complete Guide & PR Pathway
 @endsection
+
+@section('description')
+Your complete guide to Australia’s Student Visa (Subclass 500). Learn requirements, GS, CoE, work rights, documents, PR pathways, and expert visa assistance.
+@endsection
+
+@section('tags')
+student visa australia,
+subclass 500 visa,
+study in australia visa,
+australia student visa requirements,
+genuine student gs requirement,
+coe australia student visa,
+immi student visa,
+international student australia,
+student visa process australia,
+study visa migration agent,
+post-study work visa australia,
+pr pathway student visa australia,
+education consultant australia
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

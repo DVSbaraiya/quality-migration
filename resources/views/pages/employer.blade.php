@@ -1,6 +1,27 @@
 @extends('layouts.default')
 @section('title')
-    Employer Sponsored Visa
+Employer-Sponsored Visa Australia – 482, 186 & 494 PR Pathways (2024)
+@endsection
+
+@section('description')
+Explore updated employer-sponsored visas in Australia, including 482, 186 & 494. Learn PR pathways, TSMIT updates, age exemptions, nomination changes, and migration options.
+@endsection
+
+@section('tags')
+employer sponsored visa australia,
+subclass 482 visa,
+subclass 186 visa,
+subclass 494 visa,
+tss visa australia,
+ens visa australia,
+labour agreement visa,
+tsmit 2024,
+employer visa pr pathway,
+migration overhaul employer visas,
+sponsored visa australia,
+regional sponsored visa,
+482 to pr australia,
+employer nomination scheme
 @endsection
 
 @section('content')
@@ -27,11 +48,11 @@
     </div>
 
     <!--<< Coaching Section Start >>-->
-    <section class="coaching-details-section fix section-padding">
+    <section class="coaching-details-section fix">
         <div class="container px-4 px-md-0">
             <div class="coaching-details-wrapper">
                 <div class="row g-5">
-                    <div class="details-content">
+                    {{-- <div class="details-content">
                         <h3 class="">Expanding Pathways to Permane  nt Residency for Skilled Workers in
                             Australia
                         </h3>
@@ -40,7 +61,7 @@
                             These changes aim to attract skilled workers and offer greater certainty to both employers and
                             employees while simplifying the nomination process.
                         </p>
-                    </div>
+                    </div> --}}
                     <div class="details-content">
                         <!-- Employer-Sponsored Visa Updates -->
                         <div class="container py-5">
@@ -89,7 +110,7 @@
                             </div>
 
                             <!-- TSMIT + PR Pathway -->
-                            <div class="row mt-5 g-4">
+                            <div class="row mt-3 g-4">
                                 <div class="col-md-6">
                                     <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
@@ -127,7 +148,7 @@
                             </div>
 
                             <!-- Benefits & Expert Advice -->
-                            <div class="row mt-5 g-4">
+                            <div class="row mt-3 g-4">
                                 <div class="col-md-6">
                                     <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
                                         <div class="card-body">
@@ -149,6 +170,76 @@
                                             <p>Employer-sponsored visas demand accuracy. Incorrect info or missing
                                                 requirements can lead to refusal or cancellation. Get expert assistance for
                                                 a smooth application.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 g-4">
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Subclass 482 – Temporary Skill Shortage (TSS)</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Employer-sponsored</li>
+                                                <li>Stay up to 2–4 years</li>
+                                                <li>Short-Term, Medium-Term & Labour Agreement streams</li>
+                                                <li>PR pathway available for many occupations</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Subclass 186 – Employer Nomination Scheme (ENS)</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Permanent Residency (PR) visa</li>
+                                                <li>Direct Entry, TR Transition & Labour Agreement streams</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 g-4">
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Subclass 494 – Skilled Employer Sponsored Regional</h5>
+                                            <ul class="list-unstyled">
+                                                <li>Work in regional Australia</li>
+                                                <li>5-year visa with PR pathway via Subclass 191</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Subclass 407 – Training Visa</h5>
+                                            <ul class="list-unstyled">
+                                                <li>For workplace-based skill development and professional training</li>
+                                                <li>Stay up to 2 years</li>
+                                                <li>For applicants nominated by an approved employer/organization</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 g-4">
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-start border-danger border-2 border-dotted">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Labour Agreement Visas</h5>
+                                            <ul class="list-unstyled">
+                                                <li>For occupations not on the Skilled Occupation List</li>
+                                                <li>Suitable for hospitality, trades, aged care, agriculture & more</li>
+                                                <li>We assist in preparing company-specific labour agreements</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>

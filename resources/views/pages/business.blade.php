@@ -1,6 +1,27 @@
 @extends('layouts.default')
+
 @section('title')
-Business Visa
+Business & Investment Visa Australia – 188, 888 & 132 PR Pathways
+@endsection
+
+@section('description')
+Explore Business & Investment visas in Australia, including Subclass 188, 888 & 132. Learn about streams, investment options, PR pathways, and benefits for investors.
+@endsection
+
+@section('tags')
+business visa australia,
+investment visa australia,
+subclass 188 visa,
+subclass 888 visa,
+subclass 132 business visa,
+business innovation visa,
+significant investor visa,
+premium investor visa,
+entrepreneur visa australia,
+australia business migration,
+invest in australia visa,
+migration agent melbourne,
+business pr pathway australia
 @endsection
 
 @section('content')

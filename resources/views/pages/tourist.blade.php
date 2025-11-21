@@ -1,6 +1,27 @@
 @extends('layouts.default')
+
 @section('title')
-Tourist Visa
+Australia Visitor Visa 600 – Tourist & Business Stream Guide (2024)
+@endsection
+
+@section('description')
+Explore Australia’s Visitor Visa (Subclass 600). Learn about Tourist & Business streams, eligibility, stay options, requirements, and benefits for Indian nationals.
+@endsection
+
+@section('tags')
+australia tourist visa,
+visitor visa subclass 600,
+subclass 600 tourist stream,
+subclass 600 business stream,
+australia visitor visa requirements,
+tourist visa for indians australia,
+australia travel visa,
+600 visa australia,
+australia family visit visa,
+short stay visitor visa australia,
+australia business visitor visa,
+temporary stay visa australia,
+migration agent melbourne
 @endsection
 
 @section('content')

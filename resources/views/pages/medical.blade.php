@@ -1,7 +1,28 @@
 @extends('layouts.default')
+
 @section('title')
-    Medical Laboratory
+Medical Laboratory Scientist Australia – PR Pathways & Migration Guide
 @endsection
+
+@section('description')
+Explore PR and skilled migration pathways for Medical Laboratory Scientists in Australia. Learn about job demand, visa options, skills assessment, and study opportunities.
+@endsection
+
+@section('tags')
+medical laboratory scientist australia,
+medical lab scientist pr pathway,
+medical laboratory technician visa,
+mltss anzsco australia,
+healthcare migration australia,
+medical scientist visa australia,
+subclass 189 medical laboratory,
+subclass 190 medical laboratory,
+skills assessment medical lab scientist,
+australia medical lab jobs,
+healthcare pr pathways australia,
+migration agent melbourne
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

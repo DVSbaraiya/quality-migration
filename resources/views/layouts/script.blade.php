@@ -1,3 +1,14 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    let delay = Math.floor(Math.random() * (10000 - 5000 + 1)) + 5000;
+
+    setTimeout(function() {
+        let modal = new bootstrap.Modal(document.getElementById('googleReviewModal'));
+        modal.show();
+    }, delay);
+});
+</script>
+
 <script src="{{ asset("front/js/jquery-3.7.1.min.js")}}"></script>
 <!--<< Viewport Js >>-->
 <script src="{{ asset("front/js/viewport.jquery.js")}}"></script>

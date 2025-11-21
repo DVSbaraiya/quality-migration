@@ -1,6 +1,27 @@
 @extends('layouts.default')
+
 @section('title')
-General Skilled Migration
+General Skilled Migration Australia – 189, 190 & 491 Visa Pathways
+@endsection
+
+@section('description')
+Explore Australia’s General Skilled Migration visas, including Subclass 189, 190, and 491. Learn PR pathways, eligibility, points test requirements, and nomination options.
+@endsection
+
+@section('tags')
+general skilled migration australia,
+gsm visa australia,
+subclass 189 visa,
+subclass 190 visa,
+subclass 491 visa,
+skilled independent visa,
+skilled nominated visa,
+regional skilled visa australia,
+points test australia,
+skilled migration agent,
+australia pr skilled worker,
+state nomination australia,
+491 regional visa pathway
 @endsection
 
 @section('content')

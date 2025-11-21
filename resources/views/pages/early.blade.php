@@ -1,6 +1,25 @@
 @extends('layouts.default')
 @section('title')
-    Early Childhood & Secondary Teacher
+Early Childhood Teacher Australia – PR Pathway & Visa Guide
+@endsection
+
+@section('description')
+Explore PR pathways for Early Childhood and Secondary Teachers in Australia. Learn about visa options, demand, eligibility, and expert migration guidance.
+@endsection
+
+@section('tags')
+early childhood teacher australia,
+early childhood teacher pr pathway,
+secondary teacher visa australia,
+teacher migration australia,
+teaching jobs australia pr,
+australia skilled occupation list teacher,
+education visa australia,
+subclass 190 early childhood teacher,
+subclass 491 regional teacher visa,
+teacher demand australia,
+migration agent melbourne,
+pr for teachers australia
 @endsection
 
 @section('content')

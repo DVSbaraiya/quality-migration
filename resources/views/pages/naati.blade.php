@@ -1,7 +1,28 @@
 @extends('layouts.default')
+
 @section('title')
-    NAATI
+NAATI CCL Test Australia – Earn 5 Points for PR | Complete Guide
 @endsection
+
+@section('description')
+Boost your PR points with the NAATI CCL test. Learn how the exam works, eligibility, validity, test format, tips, and how CCL adds 5 points for skilled migration.
+@endsection
+
+@section('tags')
+naati ccl test,
+naati ccl australia,
+naati 5 points,
+ccl test for pr,
+naati test requirements,
+naati exam online,
+naati ccl preparation,
+skilled migration points australia,
+naati ccl validity,
+naati ccl test structure,
+language test australia migration,
+naati points australia
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

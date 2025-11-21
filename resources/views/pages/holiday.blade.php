@@ -1,7 +1,29 @@
 @extends('layouts.default')
+
 @section('title')
-Working Holiday Visa
+Working Holiday Visa Australia – 417 & 462 Guide, Requirements & Eligibility
 @endsection
+
+@section('description')
+Discover Australia’s Working Holiday Visa (Subclass 417 & 462). Learn eligibility, benefits, Indian national updates, regional work requirements, and second/third WHV options.
+@endsection
+
+@section('tags')
+working holiday visa australia,
+subclass 417 visa,
+subclass 462 visa,
+working holiday visa requirements,
+working holiday visa for indians,
+417 visa australia,
+462 visa australia,
+australia youth visa,
+second working holiday visa,
+third working holiday visa,
+regional work australia,
+backpacker visa australia,
+travel and work australia
+@endsection
+
 
 @section('content')
 <!-- Breadcrumb Section Start -->

@@ -1,6 +1,26 @@
 @extends('layouts.default')
 @section('title')
-    Trade Occupations
+Trade Occupations in Australia – In-Demand Jobs & PR Visa Pathways
+@endsection
+
+@section('description')
+Explore Australia’s most in-demand trade occupations including carpenters, welders, mechanics, chefs and more. Learn about ANZSCO codes, PR pathways, and visa options.
+@endsection
+
+@section('tags')
+trade occupations australia,
+anzsco trade occupations,
+skilled trade jobs australia,
+trade occupations pr pathway,
+carpenter australia visa,
+welder visa australia,
+mechanic visa australia,
+chef visa australia,
+bricklayer migration australia,
+metal fabricator australia,
+trade worker subclass 190,
+trade worker subclass 491,
+australian immigration trades
 @endsection
 
 @section('content')

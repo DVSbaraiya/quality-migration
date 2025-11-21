@@ -1,7 +1,28 @@
 @extends('layouts.default')
+
 @section('title')
-    Temporary Graduate
+Temporary Graduate Visa 485 – 2024 Updates, Requirements & Streams
 @endsection
+
+@section('description')
+Learn about the 2024 updates to the Temporary Graduate Visa (Subclass 485), including new streams, age limits, IELTS requirements, Indian national benefits, and visa durations.
+@endsection
+
+@section('tags')
+temporary graduate visa 485,
+485 visa australia,
+tr 485 updates 2024,
+graduate work stream australia,
+post study work stream australia,
+post higher education work stream,
+485 visa requirements,
+485 age limit,
+485 visa indian nationals,
+485 visa ielts requirement,
+migration overhaul strategy 2024,
+australia graduate visa
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->
@@ -132,36 +153,6 @@
                                         <div class="col-md-6">
                                             <img src="{{ asset('front/img/all-image/early/How-to-Learn-English-.jpg') }}"
                                                 alt="Visa Benefits for Indian Nationals" class="img-fluid rounded shadow" />
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center mb-4">
-                                        <h3 class="text-danger title-anim">Post-Study Work Visa Streams</h3>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-4">
-                                            <div class="card h-100 shadow-sm">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Post-Vocational Education Work Stream</h5>
-                                                    <p class="card-text">For graduates with qualifications tied to MLTSSL
-                                                        occupations.</p>
-                                                    <p><strong>Visa Validity:</strong> 24 months <span
-                                                            class="text-muted">(previously 18 months)</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-4">
-                                            <div class="card h-100 shadow-sm">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Post-Higher Education Work Stream</h5>
-                                                    <p class="card-text">For graduates with higher education qualifications.
-                                                    </p>
-                                                    <ul class="mb-0">
-                                                        <li><strong>Bachelor / Master by Coursework:</strong> 2 years</li>
-                                                        <li><strong>Master by Research / PhD:</strong> 3 years</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

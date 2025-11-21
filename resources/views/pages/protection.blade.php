@@ -1,6 +1,26 @@
 @extends('layouts.default')
+
 @section('title')
-Protection Visa
+Protection Visa Australia – 866, SHEV 790 & TPV 785 | Eligibility & Rights
+@endsection
+
+@section('description')
+Learn about Australia’s Protection Visa (866), SHEV 790 & TPV 785. Understand eligibility, rights, pathways, humanitarian priority countries, and visa benefits.
+@endsection
+
+@section('tags')
+protection visa australia,
+subclass 866 visa,
+shev 790 visa,
+temporary protection visa 785,
+asylum seeker australia,
+humanitarian visa australia,
+refugee visa australia,
+safe haven enterprise visa,
+australia protection obligations,
+protection visa eligibility,
+tpv vs shev,
+migration agent protection visa
 @endsection
 
 @section('content')

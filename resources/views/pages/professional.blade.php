@@ -1,7 +1,28 @@
 @extends('layouts.default')
+
 @section('title')
-    Professional
+Professional Year Program Australia – IT & Engineering | PR Pathway
 @endsection
+
+@section('description')
+Learn how the Professional Year Program (IT & Engineering) helps international graduates gain experience, earn 5 PR points, and build a career in Australia.
+@endsection
+
+@section('tags')
+professional year program australia,
+professional year it,
+professional year engineering,
+py program australia,
+5 pr points professional year,
+professional year requirements,
+australia graduate visa pathway,
+professional year internship,
+professional year bridging program,
+it professional year australia,
+engineering professional year australia,
+migration agent melbourne
+@endsection
+
 
 @section('content')
     <!-- Breadcrumb Section Start -->

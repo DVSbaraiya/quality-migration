@@ -51,7 +51,7 @@
                             </li>
                             <li>
                                <a href="{{ route('aat') }}">
-                                    AAT
+                                    ART
                                 </a>
                             </li>
                         </ul>
@@ -206,3 +206,70 @@
         </div>
     </div>
 </footer>
+
+<!-- Modern Google Review Modal -->
+<div class="modal fade" id="googleReviewModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 rounded-3xl shadow-lg" 
+         style="padding: 36px; background:#ffffff;">
+
+      <!-- Close -->
+      <button type="button" class="btn-close position-absolute" 
+              style="top:20px; right:22px;" data-bs-dismiss="modal"></button>
+
+      <!-- Google Logo -->
+      <div class="text-center mb-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+             alt="Google" style="height:55px; margin-bottom:5px;">
+      </div>
+
+      <!-- Stars -->
+      <div class="text-center mt-2">
+        <span style="color:#FFC107; font-size:32px;">★★★★★</span>
+      </div>
+
+      <!-- Rating -->
+      <p class="text-center" 
+         style="font-size:22px; font-weight:700; color:#1a1a1a; margin-top:10px;">
+         4.9 / 5.0
+      </p>
+
+      <!-- Review Count -->
+      <p class="text-center" 
+         style="font-size:15px; color:#444; margin-top:-6px;">
+        Based on <strong>128 verified reviews</strong>
+      </p>
+
+      <!-- Divider -->
+      <hr style="margin: 24px auto; width: 90%; border-color:#e4e7eb;">
+
+      <!-- CTA Button -->
+      <div class="text-center">
+        <a href="https://maps.app.goo.gl/dSvZVjJtknyLGFh16?g_st=ipc"
+           target="_blank"
+           style="
+             display:block;
+             width:100%;
+             background:#0055A4;
+             color:#fff;
+             padding:14px 0;
+             border-radius:12px;
+             font-size:18px;
+             font-weight:600;
+             text-decoration:none;
+             box-shadow:0 4px 12px rgba(0, 85, 164, 0.3);
+           ">
+          ⭐ Read Our Google Reviews
+        </a>
+      </div>
+
+      <!-- Footer Text -->
+      <p class="text-center mt-4"
+         style="color:#6e7a89; font-size:13px;">
+        This rating is verified by Google
+      </p>
+
+    </div>
+  </div>
+</div>
+

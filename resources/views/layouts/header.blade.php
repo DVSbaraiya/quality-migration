@@ -132,7 +132,7 @@
                                                 <li><a href="{{ route('holiday') }}">Working Holiday Visa</a></li>
                                                 <li><a href="{{ route('tourist') }}">Tourist visa</a></li>
                                                 <li><a href="{{ route('protection') }}">Protection Visa</a></li>
-                                                <li><a href="{{ route('aat') }}">AAT</a></li>
+                                                <li><a href="{{ route('aat') }}">ART</a></li>
                                             </ul>
                                         </li>
                                         {{-- <li>
@@ -151,9 +151,9 @@
                                                 <li><a href="{{ route('coachingdetails') }}">Articles</a></li>
                                             </ul>
                                         </li> --}}
-                                        <li>
+                                        {{-- <li>
                                             <a href="{{ route('news') }}">News & Events</a>
-                                        </li>
+                                        </li> --}}
                                         <li>
                                             <a href="{{ route('review') }}">Client Review</a>
                                         </li>
@@ -219,10 +219,10 @@
                         </button>
                     </div>
                 </div>
-                <p class="d-none d-lg-block">
+                {{-- <p class="d-none d-lg-block">
                     Ne summo dictas pertinacia nam. Illum cetero vocent ei vim, case regione signiferumque vim te. Ex
                     mea quem munere lobortis. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-                </p>
+                </p> --}}
                 <div class="mobile-menu fix mb-3"></div>
                 <div class="offcanvas__contact">
                     <h4>Contact Info</h4>

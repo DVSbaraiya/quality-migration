@@ -1,6 +1,26 @@
 @extends('layouts.default')
 @section('title')
-    Nursing
+Nursing in Australia – PR Pathways, Skilled Migration & Study Guide
+@endsection
+
+@section('description')
+Learn how to build a nursing career in Australia. Explore PR pathways, skilled migration options, job demand, and study opportunities for international students and nurses.
+@endsection
+
+@section('tags')
+nursing australia,
+nursing pr pathway australia,
+nurse visa australia,
+skilled migration nurse,
+registered nurse australia visa,
+nursing study australia,
+nursing jobs australia,
+anzsco nurse australia,
+international nursing australia,
+nurse migration australia,
+subclass 190 nursing,
+subclass 491 nursing,
+healthcare jobs australia
 @endsection
 
 @section('content')
