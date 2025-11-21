@@ -231,14 +231,14 @@
       <!-- Rating -->
       <p class="text-center" 
          style="font-size:22px; font-weight:700; color:#1a1a1a; margin-top:10px;">
-         4.9 / 5.0
+         5.0 / 5.0
       </p>
 
       <!-- Review Count -->
-      <p class="text-center" 
+      {{-- <p class="text-center" 
          style="font-size:15px; color:#444; margin-top:-6px;">
         Based on <strong>128 verified reviews</strong>
-      </p>
+      </p> --}}
 
       <!-- Divider -->
       <hr style="margin: 24px auto; width: 90%; border-color:#e4e7eb;">
