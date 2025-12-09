@@ -175,7 +175,7 @@ quality migration australia contact
                                         </div>
                                     </div>
                                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
-                                        <button type="submit" class="theme-btn">
+                                        <button type="button" class="theme-btn">
                                             <span><i class="fal fa-paper-plane"></i>Get In Touch</span>
                                         </button>
                                     </div>
