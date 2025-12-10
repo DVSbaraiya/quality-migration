@@ -22,7 +22,7 @@ public function sendMail(Request $request)
         'name' => 'required|string|max:255',
         'number' => 'required|string|max:255',
         'email' => 'required|email|max:255',
-        'message' => 'required|string',
+        'message' => 'nullable|string',
         'g-recaptcha-response' => 'required',
         'website' => 'nullable|string', // Honeypot
         'form_timer' => 'required|integer',

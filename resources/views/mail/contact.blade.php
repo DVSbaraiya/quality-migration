@@ -188,7 +188,7 @@
 
         <div>
           <div style="font-weight:700; color:#333; margin-bottom:8px;">Message</div>
-          <div class="message-box">{{ $contact['message'] }}</div>
+          <div class="message-box">{{ $contact['message'] ?? 'No message provided.' }}</div>
         </div>
       </div>
 
