@@ -121,73 +121,55 @@ quality migration australia contact
                             </div>
                             <form action="{{ route('contact.send') }}" method="POST">
                                 @csrf
+                                                        
+                                <!-- Honeypot field (hidden from humans) -->
+                                <input type="text" name="website" style="display:none">
+                                                        
+                                <!-- Timer (prevents instant bot submission) -->
+                                <input type="hidden" name="form_timer" value="{{ time() }}">
+                                                        
                                 <div class="row g-4">
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <input type="text" name="name" id="name" placeholder="Your Name*">
-                                            <div class="icon">
-                                                <i class="fal fa-user"></i>
-                                            </div>
-                                            <span class="text-danger">
-                                                @error('name')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                            <input type="text" name="name" placeholder="Your Name*">
+                                            <span class="text-danger">@error('name'){{ $message }}@enderror</span>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                                
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <input type="tel" name="number" id="number" placeholder="Your number*">
-                                            <div class="icon">
-                                                <i class="fal fa-mobile"></i>
-                                            </div>
-                                            <span class="text-danger">
-                                                @error('number')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                            <input type="tel" name="number" placeholder="Your Number*">
+                                            <span class="text-danger">@error('number'){{ $message }}@enderror</span>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
+                                
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <input type="text" name="email" id="email"
-                                                placeholder="Email Address*">
-                                            <div class="icon">
-                                                <i class="fal fa-envelope"></i>
-                                            </div>
-                                            <span class="text-danger">
-                                                @error('email')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                            <input type="email" name="email" placeholder="Email Address*">
+                                            <span class="text-danger">@error('email'){{ $message }}@enderror</span>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                                
+                                    <div class="col-lg-12">
                                         <div class="form-clt">
-                                            <textarea name="message" id="message" placeholder="Enter Your Message here"></textarea>
-                                            <div class="icon">
-                                                <i class="fal fa-edit"></i>
-                                            </div>
-                                            <span class="text-danger">
-                                                @error('message')
-                                                    {{ $message }}
-                                                @enderror
-                                            </span>
+                                            <textarea name="message" placeholder="Enter Your Message here"></textarea>
+                                            <span class="text-danger">@error('message'){{ $message }}@enderror</span>
                                         </div>
                                     </div>
+
+                                    <!-- Visible reCAPTCHA checkbox -->
                                     <div class="col-lg-12 mt-3">
-                                        <div class="g-recaptcha" data-sitekey="6LceNCYsAAAAAGmtICM6ZP0QQGs0s_lPKuPbC-mt"></div>
-                                        <span class="text-danger">
-                                            @error('g-recaptcha-response')
-                                                {{ $message }}
-                                            @enderror
-                                        </span>
+                                        <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
+                                        <span class="text-danger">@error('g-recaptcha-response'){{ $message }}@enderror</span>
                                     </div>
-                                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
+                                
+                                    <div class="col-lg-6">
                                         <button type="submit" class="theme-btn">
                                             <span><i class="fal fa-paper-plane"></i>Get In Touch</span>
                                         </button>
-                                    </div>
+                                    </div>                              
+
                                 </div>
                             </form>
                         </div>
