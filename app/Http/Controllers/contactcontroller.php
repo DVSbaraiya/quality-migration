@@ -47,7 +47,6 @@ class contactcontroller extends Controller
 
 
         try {
-            return
             Mail::send('mail.contact', ['contact' => $emailData], function ($message) {
                 $message->to('admin@qualitymigration.com', 'Quality Migration Admin')
                         ->subject('New Contact Form Submission');
