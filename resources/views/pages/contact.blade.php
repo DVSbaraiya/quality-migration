@@ -22,6 +22,7 @@ quality migration australia contact
 
 
 @section('content')
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!--<< Breadcrumb Section Start >>-->
     <div class="breadcrumb-wrapper section-padding bg-cover" style="background-image: url('front/img/breadcrumb.jpg');">
         <div class="container">
@@ -174,8 +175,16 @@ quality migration australia contact
                                             </span>
                                         </div>
                                     </div>
+                                    <div class="col-lg-12 mt-3">
+                                        <div class="g-recaptcha" data-sitekey="6LceNCYsAAAAAGmtICM6ZP0QQGs0s_lPKuPbC-mt"></div>
+                                        <span class="text-danger">
+                                            @error('g-recaptcha-response')
+                                                {{ $message }}
+                                            @enderror
+                                        </span>
+                                    </div>
                                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
-                                        <button type="button" class="theme-btn">
+                                        <button type="submit" class="theme-btn">
                                             <span><i class="fal fa-paper-plane"></i>Get In Touch</span>
                                         </button>
                                     </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
@@ -21,7 +22,9 @@ class contactcontroller extends Controller
             'number' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'message' => 'required|string',
+            'g-recaptcha-response' => 'required',
         ]);
+
 
         $emailData = [
             'name'   => $validated['name'],
@@ -30,6 +33,17 @@ class contactcontroller extends Controller
             'message'=> $validated['message'],
             'page_url' => $request->headers->get('referer'),
         ];
+
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret'   => '6LceNCYsAAAAAN3LiGz-6Kvygff_nCzDtsKUBIEO',
+            'response' => $request->input('g-recaptcha-response'),
+        ]);
+
+        $result = $response->json();
+
+        if (!($result['success'] ?? false)) {
+            return back()->with('error', 'Captcha verification failed. Please try again.');
+        }
 
 
         try {
