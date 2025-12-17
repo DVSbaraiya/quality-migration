@@ -151,9 +151,9 @@
                                                 <li><a href="{{ route('coachingdetails') }}">Articles</a></li>
                                             </ul>
                                         </li> --}}
-                                        {{-- <li>
-                                            <a href="{{ route('news') }}">News & Events</a>
-                                        </li> --}}
+                                        <li>
+                                            <a href="{{ route('blogs') }}">Blogs</a>
+                                        </li>
                                         <li>
                                             <a href="{{ route('review') }}">Client Review</a>
                                         </li>

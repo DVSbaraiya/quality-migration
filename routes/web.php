@@ -3,13 +3,14 @@
 use App\Http\Controllers\indexcontroller;
 use App\Http\Controllers\contactcontroller;
 use App\Http\Controllers\coachingcontroller;
-use App\Http\Controllers\newscontroller;
 use App\Http\Controllers\servicescontroller;
 use App\Http\Controllers\teamcontroller;
 use App\Http\Controllers\countrycontroller;
 use App\Http\Controllers\errorcontroller;
 use App\Http\Controllers\aboutcontroller;
 use App\Http\Controllers\faqcontroller;
+use App\Http\Controllers\NewsController;
+
 
 
 use Illuminate\Support\Facades\Route;
@@ -124,10 +125,8 @@ Route::get('review', function () {
 })->name('review');
 
 
-// Route::get('/news-details', [newscontroller::class, 'newsdetails'])->name('newsdetails');
-// Route::get('/news-grid', [newscontroller::class, 'newsgrid'])->name('newsgrid'); 
-Route::get('/news', [newscontroller::class, 'news'])->name('news');
-
+Route::get('/blogs', [NewsController::class, 'news'])->name('blogs');
+Route::get('/blogs/{slug}', [NewsController::class, 'show'])->name('blog.details');
 
 Route::get('/service-details', [servicescontroller::class, 'servicedetails'])->name('servicedetails');
 Route::get('/service', [servicescontroller::class, 'service'])->name('service');
