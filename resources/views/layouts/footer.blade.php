@@ -100,6 +100,9 @@
                             <p>
                                1/18 Haughton Rd Oakleigh VIC-3166
                             </p>
+                            <p class="mt-3">
+                               213, Ambika Pinacal, lajamani chowk, mota varachha, Surat, Gujarat, India
+                            </p>
                             <h5>Hours:</h5>
                             <p>
                               Monday-friday, 10:00 am - 06:30 pm
